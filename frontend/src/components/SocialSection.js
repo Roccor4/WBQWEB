@@ -41,7 +41,7 @@ const SocialSection = () => {
     },
     {
       name: 'Author Website',
-      url: (https://vladimirfischer.wordpress.com/)',
+      url: 'https://vladimirfischer.wordpress.com/',
       icon: Globe,
       description: 'The author\'s domain'
     }
