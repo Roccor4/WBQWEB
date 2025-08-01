@@ -102,7 +102,7 @@
 # Testing Data - Main Agent and testing sub agent both should log testing data below this section
 #====================================================================================================
 
-user_problem_statement: "Test the complete 'We Burned, Quietly' promotional website functionality including navigation, hero section, about section, newsletter integration, social media links, visual design, and responsive behavior."
+user_problem_statement: "Comprehensive final testing of the enhanced 'We Burned, Quietly' promotional website with all refinements including updated branding, image integration, enhanced MailerLite integration, enhanced visual design, animation and parallax effects, enhanced user experience, section-specific enhancements, and performance optimization."
 
 frontend:
   - task: "Navigation Menu Implementation"
