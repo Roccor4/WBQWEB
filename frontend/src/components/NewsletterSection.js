@@ -185,7 +185,7 @@ const NewsletterSection = () => {
             to learn which rank you are most suited for. Your initiation begins the moment you open the seal.
           </p>
 
-          {/* MailerLite embedded form */}
+          <div class="ml-embedded" data-form="0U4www"></div>
           <div className={`transition-all duration-1000 delay-600 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <div className="ml-embedded" data-form="0U4www"></div>
           </div>
