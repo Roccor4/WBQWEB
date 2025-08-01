@@ -1,34 +1,169 @@
-.App-logo {
-    height: 40vmin;
-    pointer-events: none;
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+body {
+  font-family: 'Lora', 'Libre Baskerville', serif;
+  background-color: #2b1b11;
+  color: #e8dcc0;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
-.App-header {
-    background-color: #0f0f10;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+.App {
+  min-height: 100vh;
 }
 
-.App-link {
-    color: #61dafb;
+/* Parchment background texture */
+.parchment-bg {
+  background: 
+    radial-gradient(circle at 20% 50%, rgba(139, 106, 75, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(139, 106, 75, 0.03) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(139, 106, 75, 0.02) 0%, transparent 50%),
+    linear-gradient(135deg, #2b1b11 0%, #332017 25%, #2b1b11 50%, #3d251a 75%, #2b1b11 100%);
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+.parchment-bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(139, 106, 75, 0.1) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(139, 106, 75, 0.08) 1px, transparent 1px);
+  background-size: 50px 50px, 80px 80px;
+  opacity: 0.3;
+  pointer-events: none;
+}
+
+/* Typography */
+.ceremonial-heading {
+  font-family: 'Cinzel Decorative', 'Cormorant Garamond', serif;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.literary-text {
+  font-family: 'Lora', 'Libre Baskerville', serif;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+/* Color palette */
+:root {
+  --parchment-beige: #e8dcc0;
+  --deep-umber: #3d251a;
+  --muted-gold: #c9a876;
+  --deep-blood-red: #8b2635;
+  --dark-parchment: #2b1b11;
+  --ember-glow: #d4943a;
+}
+
+/* Emblem styles */
+.order-emblem {
+  filter: drop-shadow(0 0 10px rgba(201, 168, 118, 0.3));
+  transition: all 0.3s ease;
+}
+
+.order-emblem:hover {
+  filter: drop-shadow(0 0 15px rgba(201, 168, 118, 0.5));
+  transform: scale(1.05);
+}
+
+.emblem-watermark {
+  position: absolute;
+  opacity: 0.03;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes candleFlicker {
+  0%, 100% { opacity: 0.8; }
+  50% { opacity: 1; }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.candle-glow {
+  animation: candleFlicker 3s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--deep-umber);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--muted-gold);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--ember-glow);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .ceremonial-heading {
+    font-size: 1.8rem;
+  }
+  
+  .literary-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+}
+
+/* Button hover effects */
+.oath-button {
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.oath-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(232, 220, 192, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.oath-button:hover::before {
+  left: 100%;
+}
+
+/* Gold divider */
+.gold-divider {
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--muted-gold), transparent);
+  margin: 3rem 0;
 }
