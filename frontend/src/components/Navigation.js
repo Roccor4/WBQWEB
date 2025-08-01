@@ -20,7 +20,7 @@ const Navigation = () => {
   ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/20 backdrop-blur-sm border-b border-amber-900/20">
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-md border-b border-amber-900/30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -30,7 +30,7 @@ const Navigation = () => {
               alt="Order Emblem" 
               className="order-emblem w-8 h-8"
             />
-            <span className="ceremonial-heading text-lg text-amber-100">Ordo Solis</span>
+            <span className="ceremonial-heading text-lg text-amber-100">We Burned, Quietly</span>
           </div>
 
           {/* Desktop Menu */}
@@ -40,7 +40,7 @@ const Navigation = () => {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="literary-text text-amber-100 hover:text-amber-300 px-3 py-2 text-sm font-medium transition-colors duration-200"
+                  className="literary-text text-amber-100 hover:text-amber-300 px-3 py-2 text-sm font-medium transition-colors duration-300 hover:bg-amber-900/10 rounded"
                 >
                   {item.label}
                 </button>
@@ -63,13 +63,13 @@ const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-black/40 backdrop-blur-sm border-t border-amber-900/20">
+          <div className="md:hidden bg-black/50 backdrop-blur-sm border-t border-amber-900/20">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {menuItems.map((item) => (
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className="literary-text text-amber-100 hover:text-amber-300 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-200"
+                  className="literary-text text-amber-100 hover:text-amber-300 block px-3 py-2 text-base font-medium w-full text-left transition-colors duration-300 hover:bg-amber-900/10 rounded"
                 >
                   {item.label}
                 </button>

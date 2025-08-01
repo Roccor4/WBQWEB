@@ -17,12 +17,12 @@ body {
   min-height: 100vh;
 }
 
-/* Parchment background texture */
+/* Enhanced parchment background texture */
 .parchment-bg {
   background: 
-    radial-gradient(circle at 20% 50%, rgba(139, 106, 75, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 80% 20%, rgba(139, 106, 75, 0.03) 0%, transparent 50%),
-    radial-gradient(circle at 40% 80%, rgba(139, 106, 75, 0.02) 0%, transparent 50%),
+    radial-gradient(circle at 20% 50%, rgba(163, 142, 120, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(163, 142, 120, 0.04) 0%, transparent 50%),
+    radial-gradient(circle at 40% 80%, rgba(163, 142, 120, 0.03) 0%, transparent 50%),
     linear-gradient(135deg, #2b1b11 0%, #332017 25%, #2b1b11 50%, #3d251a 75%, #2b1b11 100%);
   position: relative;
 }
@@ -35,10 +35,10 @@ body {
   right: 0;
   bottom: 0;
   background-image: 
-    radial-gradient(circle at 25% 25%, rgba(139, 106, 75, 0.1) 1px, transparent 1px),
-    radial-gradient(circle at 75% 75%, rgba(139, 106, 75, 0.08) 1px, transparent 1px);
-  background-size: 50px 50px, 80px 80px;
-  opacity: 0.3;
+    radial-gradient(circle at 25% 25%, rgba(163, 142, 120, 0.08) 1px, transparent 1px),
+    radial-gradient(circle at 75% 75%, rgba(163, 142, 120, 0.06) 1px, transparent 1px);
+  background-size: 60px 60px, 90px 90px;
+  opacity: 0.4;
   pointer-events: none;
 }
 
@@ -47,7 +47,7 @@ body {
   font-family: 'Cinzel Decorative', 'Cormorant Garamond', serif;
   font-weight: 700;
   letter-spacing: 0.02em;
-  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
 }
 
 .literary-text {
@@ -56,43 +56,95 @@ body {
   line-height: 1.8;
 }
 
-/* Color palette */
+/* Enhanced color palette */
 :root {
-  --parchment-beige: #e8dcc0;
+  --parchment-beige: #e8e2d0;
   --deep-umber: #3d251a;
+  --smoked-umber: #a38e78;
   --muted-gold: #c9a876;
   --deep-blood-red: #8b2635;
   --dark-parchment: #2b1b11;
   --ember-glow: #d4943a;
 }
 
+/* Image styling with parchment overlay */
+.parchment-image {
+  position: relative;
+}
+
+.parchment-image::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at center, rgba(232, 226, 208, 0.05) 0%, rgba(43, 27, 17, 0.1) 100%),
+    linear-gradient(45deg, rgba(201, 168, 118, 0.03) 0%, rgba(139, 38, 53, 0.02) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.parchment-image img {
+  filter: sepia(15%) saturate(1.1) contrast(1.05) brightness(0.95);
+}
+
+/* Vignette effect */
+.vignette {
+  position: relative;
+}
+
+.vignette::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, transparent 30%, rgba(43, 27, 17, 0.3) 70%);
+  pointer-events: none;
+  z-index: 2;
+}
+
 /* Emblem styles */
 .order-emblem {
-  filter: drop-shadow(0 0 10px rgba(201, 168, 118, 0.3));
+  filter: drop-shadow(0 0 12px rgba(201, 168, 118, 0.4));
   transition: all 0.3s ease;
 }
 
 .order-emblem:hover {
-  filter: drop-shadow(0 0 15px rgba(201, 168, 118, 0.5));
+  filter: drop-shadow(0 0 18px rgba(201, 168, 118, 0.6));
   transform: scale(1.05);
 }
 
 .emblem-watermark {
   position: absolute;
-  opacity: 0.03;
+  opacity: 0.04;
   pointer-events: none;
   z-index: 0;
 }
 
-/* Animations */
+/* Enhanced animations */
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(40px);
   }
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 
@@ -101,17 +153,38 @@ body {
   50% { opacity: 1; }
 }
 
+@keyframes parallaxFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
 .fade-in-up {
-  animation: fadeInUp 0.8s ease-out forwards;
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.fade-in-right {
+  animation: fadeInRight 1s ease-out forwards;
 }
 
 .candle-glow {
-  animation: candleFlicker 3s ease-in-out infinite;
+  animation: candleFlicker 4s ease-in-out infinite;
+}
+
+.parallax-float {
+  animation: parallaxFloat 6s ease-in-out infinite;
+}
+
+/* Parallax background */
+.parallax-bg {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 8px;
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -120,30 +193,19 @@ body {
 
 ::-webkit-scrollbar-thumb {
   background: var(--muted-gold);
-  border-radius: 4px;
+  border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--ember-glow);
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
-  .ceremonial-heading {
-    font-size: 1.8rem;
-  }
-  
-  .literary-text {
-    font-size: 0.95rem;
-    line-height: 1.7;
-  }
-}
-
-/* Button hover effects */
+/* Enhanced button styles */
 .oath-button {
-  transition: all 0.3s ease;
+  transition: all 0.4s ease;
   position: relative;
   overflow: hidden;
+  box-shadow: 0 4px 15px rgba(139, 38, 53, 0.3);
 }
 
 .oath-button::before {
@@ -153,17 +215,73 @@ body {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(232, 220, 192, 0.1), transparent);
-  transition: left 0.6s ease;
+  background: linear-gradient(90deg, transparent, rgba(232, 226, 208, 0.15), transparent);
+  transition: left 0.7s ease;
 }
 
 .oath-button:hover::before {
   left: 100%;
 }
 
-/* Gold divider */
+.oath-button:hover {
+  box-shadow: 0 6px 20px rgba(139, 38, 53, 0.4);
+  transform: translateY(-2px) scale(1.02);
+}
+
+/* Enhanced gold divider */
 .gold-divider {
-  height: 1px;
-  background: linear-gradient(to right, transparent, var(--muted-gold), transparent);
-  margin: 3rem 0;
+  height: 2px;
+  background: linear-gradient(to right, transparent, var(--muted-gold) 20%, var(--ember-glow) 50%, var(--muted-gold) 80%, transparent);
+  margin: 4rem 0;
+  position: relative;
+}
+
+.gold-divider::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 12px;
+  height: 12px;
+  background: var(--muted-gold);
+  border-radius: 50%;
+  box-shadow: 0 0 8px rgba(201, 168, 118, 0.5);
+}
+
+/* Section backgrounds */
+.section-bg-light {
+  background: rgba(232, 226, 208, 0.02);
+}
+
+.section-bg-dark {
+  background: rgba(163, 142, 120, 0.03);
+}
+
+/* Text selection styling */
+::selection {
+  background: rgba(201, 168, 118, 0.3);
+  color: var(--parchment-beige);
+}
+
+/* Responsive design enhancements */
+@media (max-width: 768px) {
+  .ceremonial-heading {
+    font-size: 1.8rem;
+  }
+  
+  .literary-text {
+    font-size: 0.95rem;
+    line-height: 1.7;
+  }
+
+  .parallax-bg {
+    background-attachment: scroll;
+  }
+}
+
+@media (max-width: 480px) {
+  .parchment-bg::before {
+    background-size: 40px 40px, 60px 60px;
+  }
 }
