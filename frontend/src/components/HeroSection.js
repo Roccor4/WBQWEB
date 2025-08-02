@@ -23,7 +23,10 @@ const HeroSection = () => {
         className="absolute top-0 left-0 w-full h-full object-cover"
         style={{ zIndex: 0, opacity: 0.35 }}
       >
-        <source src="/fire.mp4" type="video/mp4" />
+        <source
+          src="https://videos.pexels.com/video-files/1535674/1535674-hd_1920_1080_24fps.mp4"
+          type="video/mp4"
+        />
       </video>
 
       {/* Amber Gradient Overlay */}
