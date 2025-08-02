@@ -372,9 +372,21 @@
     font-size: 1.3rem;
   }
   
-  .card-back-content {
-    padding: 1rem;
-  }
+ .card-back-content {
+  height: 100%; /* fill full card back */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+.lore-text-container {
+  flex: 1; /* take remaining height */
+  overflow-y: auto !important; /* enable vertical scroll */
+  -webkit-overflow-scrolling: touch; /* smooth on iOS */
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  max-height: 100% !important;
+}
+
   
   .character-name-back {
     font-size: 1.1rem;
