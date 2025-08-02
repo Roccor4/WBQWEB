@@ -11,8 +11,8 @@
   position: relative;
 }
 
-/* Amber vertical gradient lines on each side */
-.lore-cards-section::after {
+/* Amber vertical gradient lines matching About the Book section */
+.lore-cards-section:after {
   content: '';
   position: absolute;
   top: 50%;
@@ -20,11 +20,11 @@
   transform: translateY(-50%);
   width: 1px;
   height: 8rem;
-  background: linear-gradient(to bottom, transparent, #b45309, transparent); /* amber-700 */
+  background: linear-gradient(to bottom, transparent, rgb(180, 83, 9), transparent); /* Tailwind amber-700 */
   opacity: 0.2;
 }
 
-.lore-cards-section::before {
+.lore-cards-section:before {
   content: '';
   position: absolute;
   top: 50%;
@@ -32,7 +32,7 @@
   transform: translateY(-50%);
   width: 1px;
   height: 8rem;
-  background: linear-gradient(to bottom, transparent, #b45309, transparent);
+  background: linear-gradient(to bottom, transparent, rgb(180, 83, 9), transparent);
   opacity: 0.2;
 }
 
