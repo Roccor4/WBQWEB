@@ -3,7 +3,7 @@
 /* Main section styling */
 .lore-cards-section {
   padding: 4rem 2rem;
-  background: linear-gradient(135deg, #1a1614 0%, #2c2318 50%, #1a1614 100%);
+  background: #2b1b11; /* Match site background */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -11,7 +11,33 @@
   position: relative;
 }
 
+/* Amber vertical gradient lines on each side */
+.lore-cards-section::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 2rem;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 8rem;
+  background: linear-gradient(to bottom, transparent, #b45309, transparent); /* amber-700 */
+  opacity: 0.2;
+}
+
 .lore-cards-section::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  width: 1px;
+  height: 8rem;
+  background: linear-gradient(to bottom, transparent, #b45309, transparent);
+  opacity: 0.2;
+}
+
+/* Keep your noise/texture overlay */
+.lore-cards-section .texture-overlay {
   content: '';
   position: absolute;
   top: 0;
