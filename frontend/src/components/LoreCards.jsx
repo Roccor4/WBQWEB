@@ -46,50 +46,66 @@ const LoreCards = () => {
 
   return (
     <section className="lore-cards-section">
-      <div className="lore-intro">
-        <p className="intro-text">
-          Knowledge is the first spark of rebellion.<br />
-          You may open these cards.<br />
-          You may regret it…
-        </p>
-      </div>
-      
-      <div className="lore-cards-container">
-        {charactersData.map((character) => (
-          <div 
-            key={character.id}
-            className={`lore-card ${flippedCards[character.id] ? 'flipped' : ''}`}
-            onClick={() => handleCardClick(character.id)}
-          >
-            <div className="card-inner">
-              {/* Front of card */}
-              <div className="card-front">
-                <div className="card-image-container">
-                  <img 
-                    src={character.image} 
-                    alt={character.name}
-                    className="character-portrait"
-                  />
-                  <div className="character-name-overlay">
-                    <h3 className="character-name">{character.name}</h3>
-                  </div>
-                </div>
-              </div>
-              
-              {/* Back of card */}
-              <div className="card-back">
-                <div className="card-back-content">
-                  <h3 className="character-name-back">{character.name}</h3>
-                  <div className="lore-text-container">
-                    <p className="lore-text">{character.lore}</p>
-                  </div>
-                </div>
+  {/* Video background */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="lore-video-background"
+  >
+    <source src="https://videos.pexels.com/video-files/9694808/9694808-hd_1920_1080_25fps.mp4" type="video/mp4" />
+  </video>
+
+  {/* Overlay to keep text readable */}
+  <div className="lore-overlay"></div>
+
+  {/* Intro text */}
+  <div className="lore-intro">
+    <p className="intro-text">
+      Knowledge is the first spark of rebellion.<br />
+      You may open these cards.<br />
+      You may regret it...
+    </p>
+  </div>
+
+  {/* Cards */}
+  <div className="lore-cards-container">
+    {charactersData.map((character) => (
+      <div
+        key={character.id}
+        className={`lore-card ${flippedCards[character.id] ? 'flipped' : ''}`}
+        onClick={() => handleCardClick(character.id)}
+      >
+        <div className="card-inner">
+          {/* Front */}
+          <div className="card-front">
+            <div className="card-image-container">
+              <img
+                src={character.image}
+                alt={character.name}
+                className="character-portrait"
+              />
+              <div className="character-name-overlay">
+                <h3 className="character-name">{character.name}</h3>
               </div>
             </div>
           </div>
-        ))}
+
+          {/* Back */}
+          <div className="card-back">
+            <div className="card-back-content">
+              <h3 className="character-name-back">{character.name}</h3>
+              <div className="lore-text-container">
+                <p className="lore-text">{character.lore}</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </section>
+    ))}
+  </div>
+</section>
   );
 };
 
