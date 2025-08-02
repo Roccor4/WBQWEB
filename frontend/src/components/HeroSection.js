@@ -10,14 +10,17 @@ const HeroSection = () => {
   };
 
   return (
-    <section id="hero" className="min-h-screen flex items-center justify-center relative pt-16">
+    <section
+      id="hero"
+      className="min-h-screen flex items-center justify-center relative pt-16"
+    >
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
         {/* Central Order Emblem */}
         <div className="mb-12 flex justify-center">
-          <img 
-            src="https://customer-assets.emergentagent.com/job_burned-quietly-1/artifacts/u6ytc338_order_emblem_transparent%20%281%29.png" 
-            alt="Order of the Sun Emblem" 
+          <img
+            src="https://customer-assets.emergentagent.com/job_burned-quietly-1/artifacts/u6ytc338_order_emblem_transparent%20%281%29.png"
+            alt="Order of the Sun Emblem"
             className="order-emblem w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 subtle-glow"
           />
         </div>
@@ -31,33 +34,38 @@ const HeroSection = () => {
 
         {/* Subheading */}
         <p className="literary-text text-lg md:text-xl lg:text-2xl text-amber-200/90 mb-12 max-w-3xl mx-auto leading-relaxed">
-          A dark literary gothic set in the shadow of the Dolomites. 
+          A dark literary gothic set in the shadow of the Dolomites.
           <br className="hidden md:block" />
           Indoctrination, forbidden love, and the price of freedom.
         </p>
 
-       {/* Call to Action + Arrow */}
-<div className="flex flex-col items-center mt-8">
-  <Button
-    onClick={scrollToNewsletter}
-    className="oath-button bg-red-900 hover:bg-red-800 text-amber-100 text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 rounded-md font-semibold tracking-wide"
-    size="lg"
-  >
-    Swear the Oath
-  </Button>
-  <div className="mt-4 animate-bounce">
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-6 h-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={2}
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-    </svg>
-  </div>
-</div>
+        {/* Call to Action + Arrow */}
+        <div className="flex flex-col items-center mt-8">
+          <Button
+            onClick={scrollToNewsletter}
+            className="oath-button bg-red-900 hover:bg-red-800 text-amber-100 text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 rounded-md font-semibold tracking-wide"
+            size="lg"
+          >
+            Swear the Oath
+          </Button>
+          <div className="mt-4 animate-bounce">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 h-6"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+              strokeWidth={2}
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M19 9l-7 7-7-7"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
