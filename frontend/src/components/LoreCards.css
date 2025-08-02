@@ -387,11 +387,13 @@
   }
   
   .lore-text-container {
-    /* Make scrolling more touch-friendly on mobile */
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior: contain;
-    scroll-behavior: smooth;
-  }
+  /* Force scrolling more touch-friendly on mobile */
+  overflow-y: auto !important; /* always allow vertical scroll */
+  -webkit-overflow-scrolling: touch; /* smooth scroll on iOS */
+  overscroll-behavior: contain;
+  scroll-behavior: smooth;
+  max-height: 100% !important; /* keep text inside card bounds */
+}
   
   .lore-text-container::-webkit-scrollbar {
     width: 8px; /* Larger for mobile touch */
