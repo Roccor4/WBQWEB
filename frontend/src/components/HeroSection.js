@@ -12,8 +12,24 @@ const HeroSection = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-center justify-center relative pt-16"
+      className="min-h-screen flex items-center justify-center relative pt-16 overflow-hidden"
     >
+      {/* Fire Video Background */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover"
+        style={{ zIndex: 0, opacity: 0.25 }}
+      >
+        <source src="/fire.mp4" type="video/mp4" />
+      </video>
+
+      {/* Brown Overlay to keep dark gothic look */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1b0f07]/90 to-[#2b1b11]/90 z-0"></div>
+
+      {/* Main content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
         {/* Central Order Emblem */}
