@@ -45,8 +45,8 @@ const LoreCards = () => {
   ];
 
   return (
-    <section className="lore-cards-section">
-  {/* Video background */}
+   <section className="lore-cards-section">
+  {/* Background Video */}
   <video
     autoPlay
     loop
@@ -57,8 +57,8 @@ const LoreCards = () => {
     <source src="https://videos.pexels.com/video-files/9694808/9694808-hd_1920_1080_25fps.mp4" type="video/mp4" />
   </video>
 
-  {/* Overlay to keep text readable */}
-  <div className="lore-overlay"></div>
+  {/* Soft brown overlay */}
+  <div className="lore-video-overlay"></div>
 
   {/* Intro text */}
   <div className="lore-intro">

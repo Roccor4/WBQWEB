@@ -11,29 +11,24 @@
     overflow: hidden; /* Ensure video stays contained */
 }
 
-/* Background video */
-.lore-cards-section::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: url("https://videos.pexels.com/video-files/9694808/9694808-hd_1920_1080_25fps.mp4") no-repeat center center/cover;
-    background-size: cover;
-    z-index: -2;
+.lore-video-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
 }
 
-/* Soft brown overlay for blending */
-.lore-cards-section::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(43, 27, 17, 0.8); /* soft brown overlay */
-    z-index: -1;
+.lore-video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(43, 27, 17, 0.8); /* soft brown overlay */
+  z-index: -1;
 }
 
 /* Amber vertical gradient lines matching About the Book section */
