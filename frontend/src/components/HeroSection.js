@@ -21,17 +21,16 @@ const HeroSection = () => {
         muted
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
-        style={{ zIndex: 0, opacity: 0.25 }}
+        style={{ zIndex: 0, opacity: 0.35 }}
       >
         <source src="/fire.mp4" type="video/mp4" />
       </video>
 
-      {/* Brown Overlay to keep dark gothic look */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#1b0f07]/90 to-[#2b1b11]/90 z-0"></div>
+      {/* Brown Overlay */}
+      <div className="absolute inset-0 bg-[#2b1b11]/85 z-0"></div>
 
       {/* Main content */}
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
-        
         {/* Central Order Emblem */}
         <div className="mb-12 flex justify-center">
           <img
