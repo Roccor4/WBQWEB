@@ -3,7 +3,7 @@
 /* Main section styling */
 .lore-cards-section {
   padding: 4rem 2rem;
-  background: #2b1b11; /* Match site background */
+  background: linear-gradient(to bottom, #1a100b, #2b1b11);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
