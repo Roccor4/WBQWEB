@@ -140,6 +140,15 @@
   border-radius: 12px;
   filter: sepia(20%) contrast(1.05) brightness(1.1);
 }
+/* --- Mobile fix for card images --- */
+@media (max-width: 768px) {
+  .character-portrait {
+    object-fit: contain; /* Show full image */
+    height: auto;        /* Keep aspect ratio */
+    max-height: 100%;    /* Prevent overflow in the card */
+    background-color: #000; /* Optional: fill empty space with black */
+  }
+}
 
 .character-name-overlay {
   position: absolute;
