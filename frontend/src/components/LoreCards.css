@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap');
+
+/* Main section styling */
+.lore-cards-section {
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #1a1614 0%, #2c2318 50%, #1a1614 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.lore-cards-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    radial-gradient(circle at 25% 25%, rgba(139, 116, 87, 0.1) 0%, transparent 40%),
+    radial-gradient(circle at 75% 75%, rgba(101, 67, 33, 0.08) 0%, transparent 40%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+/* Intro text styling */
+.lore-intro {
+  text-align: center;
+  margin-bottom: 4rem;
+  z-index: 1;
+  position: relative;
+}
+
+.intro-text {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  font-style: italic;
+  color: #d4c4a8;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  margin: 0;
+}
+
+/* Cards container */
+.lore-cards-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  width: 100%;
+  max-width: 1400px;
+  z-index: 1;
+  position: relative;
+  /* Ensure consistent grid layout */
+  align-items: stretch;
+  grid-auto-rows: 1fr;
+}
+
+/* Individual card styling */
+.lore-card {
+  width: 100%;
+  height: 450px; /* Fixed height for consistency */
+  perspective: 1000px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  position: relative;
+}
+
+.lore-card:hover {
+  transform: translateY(-8px);
+}
+
+.card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  will-change: transform;
+}
+
+.lore-card.flipped .card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Front and back card shared styles */
+.card-front,
+.card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    0 2px 8px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  overflow: hidden;
+  /* Ensure consistent dimensions */
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+}
+
+/* Front card styling */
+.card-front {
+  background: linear-gradient(145deg, #e8dcc0 0%, #d4c4a8 50%, #c7b299 100%);
+  position: relative;
+}
+
+.card-front::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(ellipse at center, transparent 30%, rgba(101, 67, 33, 0.1) 100%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='paperTexture'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.04' numOctaves='5' result='noise' seed='1'/%3E%3CfeColorMatrix in='noise' type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23paperTexture)' opacity='0.15'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.card-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.character-portrait {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 12px;
+  filter: sepia(20%) contrast(1.05) brightness(1.1);
+}
+
+.character-name-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.4) 70%, transparent 100%);
+  padding: 1.5rem 1rem 1rem;
+  backdrop-filter: blur(2px);
+}
+
+.character-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #f4f1eb;
+  margin: 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+  letter-spacing: 0.5px;
+}
+
+/* Back card styling */
+.card-back {
+  background: linear-gradient(145deg, #e8dcc0 0%, #d4c4a8 50%, #c7b299 100%);
+  transform: rotateY(180deg);
+  border: 2px solid rgba(101, 67, 33, 0.2);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+.card-back::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(ellipse at center, transparent 20%, rgba(101, 67, 33, 0.08) 100%),
+    url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='paperTexture'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.04' numOctaves='5' result='noise' seed='2'/%3E%3CfeColorMatrix in='noise' type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23paperTexture)' opacity='0.12'/%3E%3C/svg%3E");
+  pointer-events: none;
+}
+
+.card-back-content {
+  padding: 1.5rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 1;
+  flex: 1;
+  min-height: 0;
+  box-sizing: border-box;
+}
+
+.character-name-back {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #3c2e1e;
+  margin: 0 0 1rem 0;
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.3);
+  flex-shrink: 0;
+}
+
+.lore-text-container {
+  flex: 1;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0.5rem 1rem 0.5rem 0;
+  position: relative;
+  /* Ensure proper scrolling boundaries */
+  max-height: calc(100% - 4rem);
+  min-height: 0;
+  /* Scrolling only within this container */
+  overscroll-behavior: contain;
+}
+
+/* Custom scrollbar styling - thin and minimal */
+.lore-text-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.lore-text-container::-webkit-scrollbar-track {
+  background: rgba(101, 67, 33, 0.1);
+  border-radius: 2px;
+  margin: 4px 0;
+}
+
+.lore-text-container::-webkit-scrollbar-thumb {
+  background: rgba(101, 67, 33, 0.4);
+  border-radius: 2px;
+  transition: background 0.3s ease;
+}
+
+.lore-text-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(101, 67, 33, 0.6);
+}
+
+/* For Firefox */
+.lore-text-container {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(101, 67, 33, 0.4) rgba(101, 67, 33, 0.1);
+}
+
+/* Subtle gradient at bottom to indicate scrollable content */
+.lore-text-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 4px;
+  height: 20px;
+  background: linear-gradient(to bottom, transparent 0%, rgba(212, 196, 168, 0.6) 100%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lore-text-container:hover::after {
+  opacity: 1;
+}
+
+.lore-text {
+  font-family: 'Crimson Text', serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  color: #4a3a2a;
+  margin: 0;
+  text-align: left;
+  letter-spacing: 0.2px;
+  padding-bottom: 1rem;
+  /* Ensure text doesn't touch edges */
+  padding-right: 0.5rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .lore-cards-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .lore-card {
+    height: 420px;
+  }
+  
+  .intro-text {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .lore-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.2rem;
+  }
+  
+  .lore-card {
+    height: 380px;
+  }
+  
+  .lore-cards-section {
+    padding: 3rem 1.5rem;
+  }
+  
+  .intro-text {
+    font-size: 1.4rem;
+  }
+  
+  .character-name {
+    font-size: 1.1rem;
+  }
+  
+  .character-name-back {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .lore-text {
+    font-size: 0.85rem;
+  }
+  
+  .card-back-content {
+    padding: 1.2rem;
+  }
+  
+  .lore-text-container {
+    padding: 0.4rem 0.8rem 0.4rem 0;
+    /* Increase scrollbar size slightly for touch devices */
+  }
+  
+  .lore-text-container::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  .lore-text-container::-webkit-scrollbar-thumb {
+    background: rgba(101, 67, 33, 0.5);
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 480px) {
+  .lore-cards-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .lore-card {
+    height: 350px;
+  }
+  
+  .lore-cards-section {
+    padding: 2rem 1rem;
+  }
+  
+  .intro-text {
+    font-size: 1.3rem;
+  }
+  
+  .card-back-content {
+    padding: 1rem;
+  }
+  
+  .character-name-back {
+    font-size: 1.1rem;
+    margin-bottom: 0.6rem;
+  }
+  
+  .lore-text {
+    font-size: 0.8rem;
+    line-height: 1.5;
+  }
+  
+  .lore-text-container {
+    /* Make scrolling more touch-friendly on mobile */
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    scroll-behavior: smooth;
+  }
+  
+  .lore-text-container::-webkit-scrollbar {
+    width: 8px; /* Larger for mobile touch */
+  }
+  
+  .lore-text-container::-webkit-scrollbar-thumb {
+    background: rgba(101, 67, 33, 0.6);
+    border-radius: 4px;
+  }
+}

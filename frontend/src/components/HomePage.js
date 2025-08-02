@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Navigation from './Navigation';
 import HeroSection from './HeroSection';
 import AboutSection from './AboutSection';
+import LoreCards from './LoreCards'; // <-- Added import
 import NewsletterSection from './NewsletterSection';
 import SocialSection from './SocialSection';
 import Footer from './Footer';
@@ -31,6 +32,11 @@ const HomePage = () => {
         <div className="gold-divider"></div>
         <AboutSection />
         <div className="gold-divider"></div>
+
+        {/* Lore Cards Section */}
+        <LoreCards />
+        <div className="gold-divider"></div>
+
         <NewsletterSection />
         <div className="gold-divider"></div>
         <SocialSection />
