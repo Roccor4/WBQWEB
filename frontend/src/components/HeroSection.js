@@ -26,11 +26,11 @@ const HeroSection = () => {
         <source src="/fire.mp4" type="video/mp4" />
       </video>
 
-      {/* Brown Overlay */}
-      <div className="absolute inset-0 bg-[#2b1b11]/85 z-0"></div>
+      {/* Amber Gradient Overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-amber-700/20 to-transparent z-10"></div>
 
       {/* Main content */}
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-20">
         {/* Central Order Emblem */}
         <div className="mb-12 flex justify-center">
           <img
