@@ -38,7 +38,7 @@ const HeroSection = () => {
 
        {/* Call to Action + Arrow */}
 <div className="flex flex-col items-center mt-8">
-  <Button 
+  <Button
     onClick={scrollToNewsletter}
     className="oath-button bg-red-900 hover:bg-red-800 text-amber-100 text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 rounded-md font-semibold tracking-wide"
     size="lg"
