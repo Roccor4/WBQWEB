@@ -36,33 +36,27 @@ const HeroSection = () => {
           Indoctrination, forbidden love, and the price of freedom.
         </p>
 
-        {/* Call to Action */}
-        <Button 
-          onClick={scrollToNewsletter}
-          className="oath-button bg-red-900 hover:bg-red-800 text-amber-100 text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 rounded-md font-semibold tracking-wide"
-          size="lg"
-        >
-          Swear the Oath
-        </Button>
-
-        {/* Subtle atmospheric effect */}
-        <div className="absolute inset-0 -z-10">
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-96 h-96 bg-amber-900/05 rounded-full blur-3xl subtle-glow"></div>
-        </div>
-      </div>
-
-      {/* Scroll indicator */}
-<div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-  <svg
-    xmlns="http://www.w3.org/2000/svg"
-    className="w-6 h-6"
-    fill="none"
-    viewBox="0 0 24 24"
-    stroke="currentColor"
-    strokeWidth={2}
+       {/* Call to Action + Arrow */}
+<div className="flex flex-col items-center mt-8">
+  <Button 
+    onClick={scrollToNewsletter}
+    className="oath-button bg-red-900 hover:bg-red-800 text-amber-100 text-lg md:text-xl px-8 md:px-12 py-4 md:py-6 rounded-md font-semibold tracking-wide"
+    size="lg"
   >
-    <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
-  </svg>
+    Swear the Oath
+  </Button>
+  <div className="mt-4 animate-bounce">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-6 h-6"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+      strokeWidth={2}
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" d="M19 9l-7 7-7-7" />
+    </svg>
+  </div>
 </div>
     </section>
   );
