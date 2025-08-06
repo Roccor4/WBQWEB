@@ -3,6 +3,7 @@ import Navigation from './Navigation';
 import HeroSection from './HeroSection';
 import AboutSection from './AboutSection';
 import LoreCards from './LoreCards'; // <-- Added import
+import HiddenLoreArchive from './HiddenLoreArchive';
 import NewsletterSection from './NewsletterSection';
 import SocialSection from './SocialSection';
 import Footer from './Footer';
@@ -34,8 +35,12 @@ const HomePage = () => {
         <div className="gold-divider"></div>
 
         {/* Lore Cards Section */}
-        <LoreCards />
-        <div className="gold-divider"></div>
+<LoreCards />
+<div className="gold-divider"></div>
+
+{/* Hidden Lore Archive */}
+<HiddenLoreArchive />
+<div className="gold-divider"></div>
 
         <NewsletterSection />
         <div className="gold-divider"></div>
