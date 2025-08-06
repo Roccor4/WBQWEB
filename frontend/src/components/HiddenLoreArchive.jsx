@@ -27,22 +27,21 @@ const HiddenLoreArchive = () => {
   const CORRECT_PASSWORD = "MayYourShadowNeverOutrunTheLight";
 
   const ALBUM_IMAGES = [
-    {
-      url: "https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/7ilvg9ur_ChatGPT%20Image%20Aug%206%2C%202025%2C%2011_05_04%20AM.png",
-      title: "Luca Altomare",
-      description: "Smoking a cigarette on a rainy Milanese evening."
-    },
-  
-    url: "https://previews.dropbox.com/p/thumb/ACvSd5sXeI_YZA--_0owVvgsM3BKq1RO6rbXbK9sQF413r1cLsjitWO2u_Atwx5YN_lAoGm4VpRp9iVWQe_Jfk49wqcnxRV_v37gAr-CsfePTABJc_VE5xNJXgCpOtL2_V87gHNI8_LQYUpYQubrxNzJEByz4YBzn-P7Sm_mnagPE42N4xKefMIwdkjmsyRXGJ4X86GolHC2RI6O-xB-4G_FNxZZqnLGL0jxKst6ThS5qw82TySPaAG7YSpLzaPqEaTT7R8p5nPMNW1irqcLA2LZq9zTtOk20rQMYCf2L5VE0pt5yBup1mS4zcIhvc2bU9Fcxi1C-FnBrz-bjalnDST7/p.png?is_prewarmed=true",
+  {
+    url: "https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/7ilvg9ur_ChatGPT%20Image%206%20Aug%206%202025%2C%2011_05_04%20AM.png",
+    title: "Luca Altomare",
+    description: "Smoking a cigarette on a rainy Milanese evening."
+  },
+  {
+    url: "https://previews.dropbox.com/p/thumb/ACsXw6ptueY8KzpQu-lubSY2DimgY-OqrKzqP79f3F263smGM6UBOgAxybtqlGWNGCtkiqq2QyAjN0uiVZhExDJXceK7YxWMWjuVfgMQC-RuCvOa6WaEhu2PuwEPTdMRRD0RQfHTNwhS1q8ilP5h7rcEXiKXrZUR8ZlhW6P2__gF2G_sUQA-JZ3qlLP2-M0_gySKij-LMgdehUY72kU2DNluHihfWROQrHwkLSZ5T75__uVIIyYL9dzBK0EbT8x-VAoKfAO2gjfGn62IRHRwn2y_dH82I1424cIV0ny40WiVzT-ClIXU4p80d__5zbp3Zvg/p.png",
     title: "Valdazano",
-    description:
-      "Valdazano is a secluded mountain town in the Dolomites…"
-     { 
-      url: "https://previews.dropbox.com/p/thumb/ACvYsRb1Zi-bHWj44svQQ3RUcXyfoltxF5u4fE6f4Vit2vku8EDYEZT4kJbvry8V44__vPkgjyMOs4N7lFtMhgkMvfliCkCmw9OflM2w0SPPov5lBKoYHbMnjpC-fnAURH-Zbu0yS83nUPm-DrJ5owDJjBkcdZDvxkqXF-OFXNGxI63DY2Oro3VXL6QcuX2tSfMBE6psNrtGSEDXvzOIuAv1ftjNQ_31gHemawPd8IP5SunmogrNy9V5QeU16QJQMEb_Q5vDlAJjnrotNAINXBaAr42Za9fuA8wPhD-OBE9zN-2eXvPOWGhnSsxVAti5-Yg/p.png",
-      title: "Dining Hall",
-      description: "The dining hall is a sunlit chamber of stone and silence, its benches aligned like prayers."
-    }
-                    // ← no comma needed if this is the last entry
+    description: "Valdazano is a secluded mountain town in the Dolomites."
+  },
+  {
+    url: "https://previews.dropbox.com/p/thumb/ACvYsRb1Zi-bHWj44svQQ3RUcXyfoltxF5u4fE6f4Vit2vku8EDYEZT4kJbvry8V44__vPkgjyMOs4N7lFtMhgkMvfliCkCmw9OflM2w0SPPov5lBKoYHbMnjpC-fnAURH-Zbu0yS83nUPm-DrJ5owDJjBkcdZDvxkqXF-OFXNGxI63DY2Oro3VXL6QcuX2tSfMBE6psNrtGSEDXvzOIuAv1ftjNQ_31gHemawPd8IP5SunmogrNy9V5QeU16QJQMEb_Q5vDlAJjnrotNAINXBaAr42Za9fuA8wPhD-OBE9zN-2eXvPOWGhnSsxVAti5-Yg/p.png",
+    title: "Dining Hall",
+    description: "The dining hall is a sunlit chamber of stone and silence, its benches aligned like prayers."
+  } // No comma after the last entry
 ];
 
   const ARCHIVE_CONTENT = [
