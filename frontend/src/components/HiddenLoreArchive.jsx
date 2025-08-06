@@ -330,30 +330,32 @@ const HiddenLoreArchive = () => {
       {/* Image Modal */}
       {selectedImage && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center p-4"
-          style={{ backgroundColor: 'rgba(0,0,0,0.9)' }}
+          className="fixed inset-0 z-50 bg-black bg-opacity-90"
           onClick={() => setSelectedImage(null)}
         >
-          <div className="relative w-full h-full max-w-none max-h-none overflow-auto rounded-lg">
-            <button
-              onClick={() => setSelectedImage(null)}
-              className="absolute top-4 right-4 p-3 rounded-full"
-              style={{ backgroundColor: 'rgba(0,0,0,0.8)', color: '#F5E6B8' }}
-            >
-              <svg width="20" height="20" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
-                <line x1="18" y1="6" x2="6" y2="18" />
-                <line x1="6" y1="6" x2="18" y2="18" />
-              </svg>
-            </button>
-            <img
-              src={selectedImage.url}
-              alt={selectedImage.title}
-              className="max-w-none h-auto mx-auto"
-              onClick={e => e.stopPropagation()}
-            />
-            <div className="mt-6 p-6 rounded-lg text-center" style={{ backgroundColor: 'rgba(0,0,0,0.8)' }}>
-              <h3 className="text-xl mb-2" style={{ color: '#F5E6B8' }}>{selectedImage.title}</h3>
-              <p style={{ color: 'rgba(245,230,184,0.8)' }}>{selectedImage.description}</p>
+          <button
+            onClick={() => setSelectedImage(null)}
+            className="fixed top-4 right-4 z-20 p-3 rounded-full transition-colors"
+            style={{ backgroundColor: 'rgba(0,0,0,0.8)', color: '#F5E6B8' }}
+          >
+            <svg width="20" height="20" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+          <div className="fixed inset-0 overflow-auto">
+            <div className="min-h-full flex flex-col items-center justify-center p-8">
+              <img
+                src={selectedImage.url}
+                alt={selectedImage.title}
+                className="max-w-full max-h-full object-contain"
+                onClick={e => e.stopPropagation()}
+                style={{ maxWidth: '90vw', maxHeight: '80vh' }}
+              />
+              <div className="mt-6 p-6 rounded-lg max-w-2xl text-center" style={{ backgroundColor: 'rgba(0,0,0,0.8)' }}>
+                <h3 className="text-xl mb-2" style={{ color: '#F5E6B8' }}>{selectedImage.title}</h3>
+                <p style={{ color: 'rgba(245,230,184,0.8)' }}>{selectedImage.description}</p>
+              </div>
             </div>
           </div>
         </div>
