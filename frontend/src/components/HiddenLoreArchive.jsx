@@ -133,7 +133,7 @@ const HiddenLoreArchive = () => {
     loop
     muted
     playsInline
-    className="absolute top-0 left-0 w-full h-full object-cover"
+    className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none"
     style={{ zIndex: 0, opacity: 0.35 }}
   >
     <source
@@ -576,85 +576,7 @@ const HiddenLoreArchive = () => {
                                 </div>
                               </div>
                               
-                              <div 
-                                className="mt-8 p-4 rounded-lg text-center"
-                                style={{ 
-                                  backgroundColor: 'rgba(120, 53, 15, 0.1)',
-                                  border: '1px solid rgba(120, 53, 15, 0.2)'
-                                }}
-                              >
-                                <p 
-                                  className="text-xs italic"
-                                  style={{ 
-                                    color: 'rgba(245, 158, 31, 0.6)',
-                                    fontFamily: '"Cinzel", serif'
-                                  }}
-                                >
-                                  Core teachings and theological frameworks of the Order
-                                </p>
-                              </div>
-                            </div>
-                          )}
-
-                          {/* Album Content */}
-                          {item.id === 'album' && (
-                            <div className="px-8 pb-8">
-                              <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
-                                {ALBUM_IMAGES.map((image, index) => (
-                                  <div 
-                                    key={index}
-                                    className="group cursor-pointer transition-all duration-300 hover:scale-105"
-                                    onClick={() => setSelectedImage(image)}
-                                  >
-                                    <div 
-                                      className="aspect-square overflow-hidden rounded-lg mb-3"
-                                      style={{ border: '1px solid rgba(120, 53, 15, 0.3)' }}
-                                    >
-                                      <img 
-                                        src={image.url}
-                                        alt={image.title}
-                                        className="w-full h-full object-contain transition-transform duration-300 group-hover:scale-110 bg-black/20"
-                                      />
-                                    </div>
-                                    <h5 
-                                      className="text-sm mb-1"
-                                      style={{ 
-                                        fontFamily: '"Cinzel", serif', 
-                                        color: '#F5E6B8' 
-                                      }}
-                                    >
-                                      {image.title}
-                                    </h5>
-                                    <p 
-                                      className="text-xs leading-relaxed"
-                                      style={{ 
-                                        color: 'rgba(245, 230, 184, 0.6)',
-                                        fontFamily: '"Cinzel", serif'
-                                      }}
-                                    >
-                                      {image.description}
-                                    </p>
-                                  </div>
-                                ))}
-                              </div>
                               
-                              <div 
-                                className="mt-8 p-4 rounded-lg text-center"
-                                style={{ 
-                                  backgroundColor: 'rgba(120, 53, 15, 0.1)',
-                                  border: '1px solid rgba(120, 53, 15, 0.2)'
-                                }}
-                              >
-                                <p 
-                                  className="text-xs italic"
-                                  style={{ 
-                                    color: 'rgba(245, 158, 31, 0.6)',
-                                    fontFamily: '"Cinzel", serif'
-                                  }}
-                                >
-                                  To add new images: Edit the ALBUM_IMAGES array in the component file
-                                </p>
-                              </div>
                             </div>
                           )}
 
