@@ -31,7 +31,7 @@ const HiddenLoreArchive = () => {
       url: "https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/7ilvg9ur_ChatGPT%20Image%20Aug%206%2C%202025%2C%2011_05_04%20AM.png",
       title: "Luca Altomare",
       description: "Smoking a cigarette on a rainy Milanese evening."
-    }
+    },
     {
       url: "https://www.dropbox.com/scl/fi/ckyrsoj6qj7gombzfmtgx/ChatGPT-Image-Apr-15-2025-01_14_13-PM.png?rlkey=23ahq965db8jqisk9jgnl4qv5&st=w8hg7svq&dl=0",
       title: "Valdazano",
