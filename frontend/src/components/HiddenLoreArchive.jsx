@@ -133,7 +133,7 @@ const HiddenLoreArchive = () => {
     loop
     muted
     playsInline
-    className="absolute top-0 left-0 w-full h-full object-cover pointer-events-none"
+    className="absolute top-0 left-0 w-full h-full object-cover"
     style={{ zIndex: 0, opacity: 0.35 }}
   >
     <source
@@ -143,7 +143,7 @@ const HiddenLoreArchive = () => {
   </video>
 
   {/* Amber Gradient Overlay */}
-  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-amber-700/20 to-transparent z-10"></div>
+  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-amber-700/20 to-transparent z-10 pointer-events-none"></div>
 <div className="relative z-20">
   {/* all your current archive JSX here */}
 </div>
@@ -158,13 +158,13 @@ const HiddenLoreArchive = () => {
 
       {/* Subtle Texture Overlay */}
       <div 
-        className="absolute inset-0"
+        className="absolute inset-0 pointer-events-none"
         style={{
           background: 'linear-gradient(to right, rgba(120, 53, 15, 0.1), transparent, rgba(120, 53, 15, 0.1))'
         }}
       ></div>
       
-      <div className="relative max-w-4xl mx-auto px-6">
+      <div className="relative max-w-4xl mx-auto px-6" style={{ zIndex: 20 }}>
         {!isUnlocked ? (
           <div className="text-center">
             {/* Main Headline */}
