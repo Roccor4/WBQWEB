@@ -33,12 +33,12 @@ const HiddenLoreArchive = () => {
       description: "Smoking a cigarette on a rainy Milanese evening."
     },
     {
-      url: "https://www.dropbox.com/scl/fi/ckyrsoj6qj7gombzfmtgx/ChatGPT-Image-Apr-15-2025-01_14_13-PM.png?rlkey=23ahq965db8jqisk9jgnl4qv5&st=w8hg7svq&dl=0",
-      title: "Valdazano",
-      description: "Valdazano is a secluded mountain town in the Dolomites, where stone streets wind through mist and silence as if time itself has chosen to remain hidden there."
-    }
-    // add more images here...
-  ];
+    url: "https://dl.dropboxusercontent.com/s/ckyrsoj6qj7gombzfmtgx/ChatGPT-Image-Apr-15-2025-01_14_13-PM.png",
+    title: "Valdazano",
+    description:
+      "Valdazano is a secluded mountain town in the Dolomites…"
+  }                  // ← no comma needed if this is the last entry
+];
 
   const ARCHIVE_CONTENT = [
     {
