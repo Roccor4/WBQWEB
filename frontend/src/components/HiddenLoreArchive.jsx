@@ -153,7 +153,7 @@ const HiddenLoreArchive = () => {
         {!isUnlocked ? (
           <div className="text-center">
             <h2 className="text-4xl md:text-6xl mb-2" style={{ color: '#F3E8C7' }}>Beyond This Point Lies the</h2>
-            <h1 className="text-5xl md:text-7xl mb-4" style={{ color: '#F5E6B8' }}>Forbidden Archive</h1>
+            <h1 className="text-5xl md:text-7xl mb-4" style={{ color: '#F5E6B8' }}>Hidden Archive</h1>
             <p className="text-xl italic mb-8" style={{ color: 'rgba(245,230,184,0.8)' }}>
               Only those with clearance may enter. Will you proceed?
             </p>
