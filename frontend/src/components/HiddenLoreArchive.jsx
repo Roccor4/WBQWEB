@@ -123,13 +123,30 @@ const HiddenLoreArchive = () => {
   };
 
   return (
-    <section 
-      className="relative w-full py-24 overflow-hidden"
-      style={{
-        background: 'linear-gradient(to bottom, #000000, rgba(120, 53, 15, 0.2), #000000)',
-        fontFamily: '"Cinzel", serif'
-      }}
-    >
+    <section
+  className="relative w-full py-24 overflow-hidden"
+  style={{ fontFamily: '"Cinzel", serif' }}
+>
+  {/* Background Video */}
+  <video
+    autoPlay
+    loop
+    muted
+    playsInline
+    className="absolute top-0 left-0 w-full h-full object-cover"
+    style={{ zIndex: 0, opacity: 0.35 }}
+  >
+    <source
+      src="https://videos.pexels.com/video-files/6136340/6136340-hd_1920_1080_30fps.mp4"
+      type="video/mp4"
+    />
+  </video>
+
+  {/* Amber Gradient Overlay */}
+  <div className="absolute inset-0 bg-gradient-to-b from-transparent via-amber-700/20 to-transparent z-10"></div>
+<div className="relative z-20">
+  {/* all your current archive JSX here */}
+</div>
       {/* Ordo Solis Watermark */}
       <div className="absolute inset-0 flex items-center justify-center opacity-5 pointer-events-none">
         <img 
