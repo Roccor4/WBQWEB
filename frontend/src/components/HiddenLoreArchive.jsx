@@ -28,7 +28,7 @@ const HiddenLoreArchive = () => {
 
   const ALBUM_IMAGES = [
   {
-    url: "https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/7ilvg9ur_ChatGPT%20Image%206%20Aug%206%202025%2C%2011_05_04%20AM.png",
+    url: "https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/7ilvg9ur_ChatGPT%20Image%20Aug%206%2C%202025%2C%2011_05_04%20AM.png",
     title: "Luca Altomare",
     description: "Smoking a cigarette on a rainy Milanese evening."
   },
