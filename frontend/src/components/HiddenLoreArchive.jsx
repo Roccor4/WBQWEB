@@ -37,7 +37,12 @@ const HiddenLoreArchive = () => {
     title: "Valdazano",
     description:
       "Valdazano is a secluded mountain town in the Dolomites…"
-  }                  // ← no comma needed if this is the last entry
+      },
+      url: "https://previews.dropbox.com/p/thumb/ACvYsRb1Zi-bHWj44svQQ3RUcXyfoltxF5u4fE6f4Vit2vku8EDYEZT4kJbvry8V44__vPkgjyMOs4N7lFtMhgkMvfliCkCmw9OflM2w0SPPov5lBKoYHbMnjpC-fnAURH-Zbu0yS83nUPm-DrJ5owDJjBkcdZDvxkqXF-OFXNGxI63DY2Oro3VXL6QcuX2tSfMBE6psNrtGSEDXvzOIuAv1ftjNQ_31gHemawPd8IP5SunmogrNy9V5QeU16QJQMEb_Q5vDlAJjnrotNAINXBaAr42Za9fuA8wPhD-OBE9zN-2eXvPOWGhnSsxVAti5-Yg/p.png",
+      title: "Dining Hall",
+      description: "The dining hall is a sunlit chamber of stone and silence, its benches aligned like prayers."
+    
+                    // ← no comma needed if this is the last entry
 ];
 
   const ARCHIVE_CONTENT = [
