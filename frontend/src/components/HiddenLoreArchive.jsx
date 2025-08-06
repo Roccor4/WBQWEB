@@ -61,19 +61,18 @@ const HiddenLoreArchive = () => {
       alwaysOpen: true
     },
     {
-      id: 'doctrines',
-      title: 'Doctrines',
-      type: 'document',
-      description:
-        'Core philosophical teachings and theological frameworks of the Ordo Solis. Essential readings for understanding the sacred hierarchy and spiritual discipline.',
-      quote: '"Given Upon Arrival | Carried Always | Read Daily Before Sleep"',
-      downloadUrl:
-        'https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/gkbn7j5x_Doctrine%20of%20the%20Lamb.pdf',
-      fileSize: '33MB',
-      coverImage:
-        'https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/jnbs7kh6_Copy%20of%20The%20Pocket%20Guide%20of%20the%20Ordo%20Solis.png',
-      status: 'Available'
-    },
+  id: 'doctrines',
+  title: 'Doctrines',
+  type: 'document',
+  description: 'Core philosophical teachings and theological frameworks of the Ordo Solis. Essential readings for understanding the sacred hierarchy and spiritual discipline.', // General section description
+  documentDescription: 'The Doctrine of the Lamb is a sacred text, outlining the duties and spiritual practices expected from every initiate within the Order.', // Specific document description
+  quote: '"Given Upon Arrival | Carried Always | Read Daily Before Sleep"',
+  downloadUrl: 'https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/gkbn7j5x_Doctrine%20of%20the%20Lamb.pdf',
+  fileSize: '33MB',
+  coverImage: 'https://customer-assets.emergentagent.com/job_hidden-lore/artifacts/jnbs7kh6_Copy%20of%20The%20Pocket%20Guide%20of%20the%20Ordo%20Solis.png',
+  status: 'Available'
+},
+
     {
       id: 'album',
       title: 'Album',
@@ -231,7 +230,10 @@ const HiddenLoreArchive = () => {
                         <img src={item.coverImage} alt="" className="md:w-1/3 rounded-lg shadow-lg" style={{ border: '1px solid rgba(120,53,15,0.3)' }} />
                         <div className="md:w-2/3 space-y-4">
                           <h4 className="text-2xl" style={{ color: '#F5E6B8' }}>{item.title}</h4>
-                          <p style={{ color: 'rgba(245,230,184,0.8)' }}>{item.description}</p>
+                          <p style={{ color: 'rgba(245,230,184,0.8)' }}>
+  {item.documentDescription || item.description}
+</p>
+
                           <blockquote className="pl-4 italic" style={{ borderLeft: '4px solid rgba(120,53,15,1)', color: 'rgba(245,158,31,0.9)' }}>
                             {item.quote}
                           </blockquote>
