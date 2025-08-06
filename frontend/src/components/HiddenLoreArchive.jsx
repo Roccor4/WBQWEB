@@ -33,7 +33,7 @@ const HiddenLoreArchive = () => {
       description: "Smoking a cigarette on a rainy Milanese evening."
     },
     {
-    url: "https://dl.dropboxusercontent.com/s/ckyrsoj6qj7gombzfmtgx/ChatGPT-Image-Apr-15-2025-01_14_13-PM.png",
+    url: "https://previews.dropbox.com/p/thumb/ACvSd5sXeI_YZA--_0owVvgsM3BKq1RO6rbXbK9sQF413r1cLsjitWO2u_Atwx5YN_lAoGm4VpRp9iVWQe_Jfk49wqcnxRV_v37gAr-CsfePTABJc_VE5xNJXgCpOtL2_V87gHNI8_LQYUpYQubrxNzJEByz4YBzn-P7Sm_mnagPE42N4xKefMIwdkjmsyRXGJ4X86GolHC2RI6O-xB-4G_FNxZZqnLGL0jxKst6ThS5qw82TySPaAG7YSpLzaPqEaTT7R8p5nPMNW1irqcLA2LZq9zTtOk20rQMYCf2L5VE0pt5yBup1mS4zcIhvc2bU9Fcxi1C-FnBrz-bjalnDST7/p.png?is_prewarmed=true",
     title: "Valdazano",
     description:
       "Valdazano is a secluded mountain town in the Dolomites…"
