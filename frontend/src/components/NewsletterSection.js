@@ -81,10 +81,16 @@ const NewsletterSection = () => {
           </h2>
 
           <p className="literary-text text-base md:text-lg text-amber-200/90 mb-12 leading-relaxed max-w-xl mx-auto">
-            Receive your access to the <em>Hidden Archive</em> and
-            take the Order Rank Quiz to learn which rank you are most suited
-            for. Your initiation begins the moment you open the seal.
-          </p>
+  <a
+    href="https://preview.mailerlite.io/forms/1707528/161992586618209765/share"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="underline hover:text-amber-100 transition-colors"
+  >
+    Receive your access to the <em>Hidden Archive</em>
+  </a>{' '}
+  and take the Order Rank Quiz to learn which rank you are most suited for. Your initiation begins the moment you open the seal.
+</p>
 
           {/* MailerLite Embed */}
           <div className="ml-embedded" data-form="0U4www"></div>
