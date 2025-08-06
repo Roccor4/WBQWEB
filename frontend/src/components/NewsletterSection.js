@@ -81,7 +81,7 @@ const NewsletterSection = () => {
           </h2>
 
           <p className="literary-text text-base md:text-lg text-amber-200/90 mb-12 leading-relaxed max-w-xl mx-auto">
-            Receive your sacred <em>The Pocket Guide of the Ordo Solis</em> and
+            Receive your access to the <em>Hidden Archive</em> and
             take the Order Rank Quiz to learn which rank you are most suited
             for. Your initiation begins the moment you open the seal.
           </p>
