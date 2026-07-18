@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{N,y 'v√Æ∂õ≠import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
+import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
 import { book } from '../site/siteData';
 
 const earlyReaderNotes = [

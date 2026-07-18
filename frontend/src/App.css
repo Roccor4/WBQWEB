@@ -1,4 +1,4 @@
-­r‡^Ñf¥–Ø¦{N,yÊ'vÃ®¶›­:root {
+:root {
   --wbq-charred: #2B2521;
   --wbq-ash: #E1D2C3;
   --wbq-paper: #E8DBCE;
@@ -160,4 +160,467 @@ dl { margin: 0; } dl div { padding: .65rem 0; border-bottom: 1px solid var(--lin
 .footer-links { margin: 2rem 0 1.5rem; display: flex; flex-wrap: wrap; justify-content: center; gap: 1.3rem; }.footer-links a { color: var(--brass-soft); font-size: .78rem; font-weight: 700; letter-spacing: .08em; text-decoration: none; text-transform: uppercase; }.footer-small { color: rgba(238,232,220,.5); font-size: .77rem; }
 
 @media (max-width: 900px) { .desktop-nav { display: none; }.menu-toggle { display: inline-flex; }.hero { gap: 3rem; }.section-grid, .author-section { grid-template-columns: .4fr 1fr; }.section-grid > .prose { grid-column: 2; }.newsletter-panel { margin-left: 2rem; margin-right: 2rem; }.press-grid { grid-template-columns: 1fr; } }
-@media (max-width: 700px) { .header-inner { min-height: 64px; padding: 0 1.1rem; }.wordmark { font-size: 1.1rem; }.desktop-nav { display: none; }.menu-toggle { display: inline-flex; }.mobile-nav { display: grid; padding: .75rem 1.1rem 1.1rem; background: #171617; border-top: 1px solid var(--line); }.mobile-nav a { padding: .85rem 0; color: var(--bone); font-size: .9rem; text-decoration: none; }.mobile-nav .button { margin-top: .65rem; padding: .65rem .8rem; }.hero { min-height: auto; padding: 4rem 1.25rem 3rem; grid-template-columns: 1fr; gap: 2.4rem; }.hero h1 { font-size: clamp(3.5rem, 16vw, 5.3rem); }.hero-premise { font-size: 1.38rem; }.cover-stage { width: min(78vw, 350px); justify-self: center; grid-row: 1; }.cover-placeholder { min-height: 420px; }.release-actions { display: grid; grid-template-columns: 1fr; }.button { width: 100%; }.section-grid, .author-section { display: block; padding: 4rem 1.25rem; }.section-grid > .eyebrow, .author-section > div:first-child { margin-bottom: 1.4rem; }.prose { font-size: 1.25rem; }.reaãž6¶‰žËkºwµçA…¥¹œè€¸ÄÑ•´ìÑ•áÐµÑÉ…¹Í™½É´èÕÁÁ•É…Í”ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ™Õ±°€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”ì‘¥ÍÁ±…äèÉ¥ì…Àè€¸ÄáÉ•´ìµ…àµÝ¥‘Ñ è€ÈÕ ì™½¹Ðè±…µÀ Ä¸ÀÙÉ•´°€Ä¸ÐÕÙÜ°€Ä¸ÍÉ•´¤¼Ä¸ÄàÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤ì±•ÑÑ•ÈµÍÁ…¥¹œè€´¸ÀÄÙ•´ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ™Õ±°€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”ÍÁ…¸ì½±½ÈèÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸à¤ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ™Õ±°€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”ÍÑÉ½¹œì½±½Èè€™™˜ì™½¹ÐµÍ¥é”è±…µÀ Ä¸ÐÉÉ•´°€ÉÙÜ°€Ä¸áÉ•´¤ì™½¹ÐµÝ•¥¡Ðè€ÔÀÀì±¥¹”µ¡•¥¡Ðè€Ä¸ÀÈìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ™Õ±°€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”•´ì½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤ì™½¹ÐµÍÑå±”è¥Ñ…±¥Œìô((¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…Éìµ¥¸µ¡•¥¡Ðè€ÈÈÁÁàìÁ…‘‘¥¹œè±…µÀ Ä¸ØÕÉ•´°€Ì¸ÕÙÜ°€È¸ÝÉ•´¤ì½Ù•É™±½Üè¡¥‘‘•¸ì‰½É‘•Èµ±•™Ðè€ÉÁàÍ½±¥Ù…È ´µ‰É…ÍÌµÍ½™Ð¤ì‰…­É½Õ¹è±¥¹•…ÈµÉ…‘¥•¹Ð ÄÌÕ‘•œ°É‰„ àà°€ÌÐ°€ÐÄ°€¸ÔØ¤°É‰„ ÈÈ°€ÈÄ°€ÈÄ°€¸äÈ¤€ØÈ”¤ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…ÉµÑ•¹Í¥½¸ì‰½É‘•Èµ±•™Ðµ½±½Èè€ŒÝŒáŒÜàì‰…­É½Õ¹è±¥¹•…ÈµÉ…‘¥•¹Ð ÄÌÕ‘•œ°É‰„ ÌÜ°€ÔÔ°€ÐÔ°€¸ØÈ¤°É‰„ ÈÄ°€ÈÌ°€ÈÈ°€¸äÐ¤€ØÈ”¤ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…Éèé‰•™½É”ìÑ½Àè…ÕÑ¼ìÉ¥¡Ðè€Ä¸ÉÉ•´ì‰½ÑÑ½´è€´¸ÉÉ•´ì½±½ÈèÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Ä¤ì™½¹ÐµÍ¥é”è€ÝÉ•´ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”ì‘¥ÍÁ±…äèÉ¥ì…Àè€¸ÄáÉ•´ìµ…àµÝ¥‘Ñ è€ÈÁ ì™½¹Ðè±…µÀ Ä¸ÅÉ•´°€Ä¸ÕÙÜ°€Ä¸ÌÕÉ•´¤¼Ä¸ÄØÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤ì±•ÑÑ•ÈµÍÁ…¥¹œè€´¸ÀÈÉ•´ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”ÍÁ…¸ì½±½ÈèÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸àÈ¤ìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”ÍÑÉ½¹œì½±½Èè€™™˜ì™½¹ÐµÍ¥é”è±…µÀ Ä¸ÕÉ•´°€È¸ÉÙÜ°€ÉÉ•´¤ì™½¹ÐµÝ•¥¡Ðè€ÔÀÀì±¥¹”µ¡•¥¡Ðè€Äìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…É‰±½­ÅÕ½Ñ”•´ì½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤ì™½¹ÐµÍÑå±”è¥Ñ…±¥Œìô(¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…É™¥…ÁÑ¥½¸ìµ…É¥¸µÑ½Àè€Ä¸áÉ•´ì½±½ÈèÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Øà¤ìô(¹…ÕÑ¡½ÈµÁÉ½™¥±”ì(€µ…àµÝ¥‘Ñ è€äÐÁÁàì(€Á…‘‘¥¹œµÑ½Àè±…µÀ ÍÉ•´°€ÕÙÜ°€Ð¸ÕÉ•´¤ì(€Á…‘‘¥¹œµ‰½ÑÑ½´è±…µÀ ÍÉ•´°€ÕÙÜ°€Ð¸ÕÉ•´¤ì(€É¥µÑ•µÁ±…Ñ”µ½±Õµ¹Ìèµ¥¹µ…à ÈÄÁÁà°€¸ÜÉ™È¤µ¥¹µ…à À°€Ä¸Èá™È¤ì(€½±Õµ¸µ…Àè±…µÀ ÉÉ•´°€ÙÙÜ°€ÕÉ•´¤ì)ô(¹…ÕÑ¡½ÈµÁÉ½™¥±”€¹ÁÉ½Í”ìµ…àµÝ¥‘Ñ èÙ…È ´µÝ‰ÄµÉ•…‘¥¹œµÝ¥‘Ñ ¤ì™½¹ÐµÍ¥é”è€Ä¸ÈáÉ•´ìô(¹…ÕÑ¡½ÈµÁÉ½™¥±”€¹ÁÉ½Í”Àìµ…É¥¸µ‰½ÑÑ½´è€ÅÉ•´ìô(¹Ñ•áÐµ±¥¹¬ì‰½É‘•Èµ‰½ÑÑ½´è€ÅÁàÍ½±¥É‰„ ÈÄÈ°€ÄàØ°€ÄÌà°€¸ÔÔ¤ìÁ…‘‘¥¹œµ‰½ÑÑ½´è€¸ÌÕÉ•´ìÑÉ…¹Í¥Ñ¥½¸è½±½È€¸ÉÌ°‰½É‘•Èµ½±½È€¸ÉÌìô(¹Ñ•áÐµ±¥¹¬é¡½Ù•Èì‰½É‘•Èµ½±½ÈèÙ…È ´µ¥Ù½Éä¤ìô((¹É•…‘¥¹œµ¥¹Ù¥Ñ…Ñ¥½¸ì(€Á½Í¥Ñ¥½¸èÉ•±…Ñ¥Ù”ì(€½Ù•É™±½Üè¡¥‘‘•¸ì(€‰…­É½Õ¹µ½±½ÈèÙ…È ´µÍ¥¹…°¤ì(€‰…­É½Õ¹µ¥µ…”è±¥¹•…ÈµÉ…‘¥•¹Ð äÁ‘•œ°É‰„ ÄÄÄ°€Èä°€Ìä°€¸äÜ¤°É‰„ ÄÄÄ°€Èä°€Ìä°€¸Üà¤¤°ÕÉ° ˆ¸½…ÍÍ•ÑÌ½Ý‰Äµ™±½É„µ…ÍÑ•°µ‘½±½µ¥Ñ•Ìµ±½…°¹Ý•‰Àˆ¤ì(€‰…­É½Õ¹µÁ½Í¥Ñ¥½¸è•¹Ñ•È°€ÜØ”•¹Ñ•Èì(€‰…­É½Õ¹µÍ¥é”è½Ù•È°½Ù•Èì(€‰½É‘•Èµ½±½ÈèÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸ÈØ¤ì)ô(¹É•…‘¥¹œµ¥¹Ù¥Ñ…Ñ¥½¸èé…™Ñ•Èì½¹Ñ•¹Ðè€‰$ˆìÁ½Í¥Ñ¥½¸è…‰Í½±ÕÑ”ìÉ¥¡Ðè€Ð”ìÑ½Àè€´ÄØ”ì½±½ÈèÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Ä¤ì™½¹Ðè¥Ñ…±¥Œ€ÈÕÉ•´¼¸àÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤ìô(¹É•…‘¥¹œµ¥¹Ù¥Ñ…Ñ¥½¸€ø€¨ìÁ½Í¥Ñ¥½¸èÉ•±…Ñ¥Ù”ìèµ¥¹‘•àè€Äìô(¹É•…‘¥¹œµ¥¹Ù¥Ñ…Ñ¥½¸€¹•å•‰É½Üì½±½Èè€˜ÁŒÐáˆìô(¹É•…‘¥¹œµ¥¹Ù¥Ñ…Ñ¥½¸ Èì½±½ÈèÙ…È ´µ¥Ù½Éä¤ìô(¹É•…‘¥¹œµ¥¹Ù¥Ñ…Ñ¥½¸€¹‰ÕÑÑ½¸µÁÉ¥µ…Éäì‰…­É½Õ¹èÙ…È ´µ¥Ù½Éä¤ì‰½É‘•Èµ½±½ÈèÙ…È ´µ¥Ù½Éä¤ì½±½Èè€ŒÕ„ÈÀÉˆì‰½àµÍ¡…‘½Üè€ÕÁà€ÕÁà€ÀÉ‰„ À°€À°€À°€¸ÈÈ¤ìô((¹…É¡¥Ù”µÁÉ•Ù¥•ÜìÁ…‘‘¥¹œµÑ½Àè±…µÀ ÕÉ•´°€ÄÁÙÜ°€ÄÁÉ•´¤ìô(¹…É¡¥Ù”µ…É‘Ìì…Àè€Àì‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸È¤ìô(¹…É¡¥Ù”µ…É‘Ì…ÉÑ¥±”°€¹…É¡¥Ù”µ…É‘ÌÍ•Ñ¥½¸ìµ¥¸µ¡•¥¡Ðè€ÌÀÁÁàì‰½É‘•Èè€Àì‰½É‘•ÈµÉ¥¡Ðè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸È¤ì‰…­É½Õ¹èÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸ÀÌÔ¤ìÑÉ…¹Í¥Ñ¥½¸è‰…­É½Õ¹€¸ÈÉÌ°ÑÉ…¹Í™½É´€¸ÈÉÌìô(¹…É¡¥Ù”µ…É‘Ì…ÉÑ¥±”é±…ÍÐµ¡¥±ì‰½É‘•ÈµÉ¥¡Ðè€Àìô(¹…É¡¥Ù”µ…É‘Ì…ÉÑ¥±”é¡½Ù•Èì‰…­É½Õ¹èÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Àä¤ìÑÉ…¹Í™½É´èÑÉ…¹Í±…Ñ•d ´ÕÁà¤ìô(¹…É¡¥Ù”µ…É‘Ì…ÉÑ¥±”é¹Ñ µ¡¥± È¤ì‰…­É½Õ¹èÉ‰„ ÄÐÄ°€ÐÄ°€ÔÌ°€¸ÄÌ¤ìô(¹…É¡¥Ù”µ…É‘Ì Ì°€¹…É¡¥Ù”µ…É‘Ì Èì™½¹ÐµÍ¥é”è€È¸ÈÕÉ•´ìô((¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°ì(€Á½Í¥Ñ¥½¸èÉ•±…Ñ¥Ù”ì(€¥Í½±…Ñ¥½¸è¥Í½±…Ñ”ì(€½Ù•É™±½Üè¡¥‘‘•¸ì(€…±¥¸µ¥Ñ•µÌèÍÑ…ÉÐì(€…Àè±…µÀ ÉÉ•´°€ÙÙÜ°€Ô¸ÕÉ•´¤ì(€‰…­É½Õ¹è€ŒÄÀÄÀÄÄì(€½±½ÈèÙ…È ´µÁ…Á•È¤ì(€‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Äà¤ì(€‰½àµÍ¡…‘½Üè¹½¹”ì)ô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°èé‰•™½É”ì(€½¹Ñ•¹Ðè€ˆˆì(€Á½Í¥Ñ¥½¸è…‰Í½±ÕÑ”ì(€èµ¥¹‘•àè€´Äì(€±•™Ðè±…µÀ ÉÉ•´°€ÕÙÜ°€ÑÉ•´¤ì(€‰½ÑÑ½´è±…µÀ ´ÑÉ•´°€´ÉÙÜ°€´Ä¸ÕÉ•´¤ì(€Ý¥‘Ñ è±…µÀ ÄÁÉ•´°€ÈÁÙÜ°€ÄÙÉ•´¤ì(€…ÍÁ•ÐµÉ…Ñ¥¼è€Äì(€½Á…¥Ñäè€¸ÀÐÔì(€‰…­É½Õ¹èÕÉ° ˆ¸½…ÍÍ•ÑÌ½½É‘¼µÍ½±¥ÌµÍÕ¸µÍ•…°¹Ý•‰Àˆ¤•¹Ñ•È€¼½¹Ñ…¥¸¹¼µÉ•Á•…Ðì(€™¥±Ñ•ÈèÍ•Á¥„ ¸Ô¤‰É¥¡Ñ¹•ÍÌ Ä¸ÔÔ¤ì(€Á½¥¹Ñ•Èµ•Ù•¹ÑÌè¹½¹”ì)ô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•° Èìµ…àµÝ¥‘Ñ è€ÄÅ ì½±½Èè€™™˜ì™½¹Ðµ™…µ¥±äèÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤ìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€ø‘¥Øé™¥ÉÍÐµ¡¥±ìµ¥¸µ¡•¥¡Ðè€ÄÀÀ”ì‘¥ÍÁ±…äè™±•àì™±•àµ‘¥É•Ñ¥½¸è½±Õµ¸ì©ÕÍÑ¥™äµ½¹Ñ•¹Ðè™±•àµÍÑ…ÉÐìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€ø‘¥Øé™¥ÉÍÐµ¡¥±€øÀé¹½Ð ¹•å•‰É½Ü¤ì½±½ÈèÉ‰„ ÈÔÔ°€ÈÔÔ°€ÈÔÔ°€¸ä¤ìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹™¥¹”µÁÉ¥¹Ðì½±½ÈèÉ‰„ ÈÌÈ°€ÈÄä°€ÈÀØ°€¸Øà¤ìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹™¥¹”µÁÉ¥¹Ð„ì½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤ìô(¹Í¥¹ÕÀµ…É•„ì(€Ý¥‘Ñ è€ÄÀÀ”ì(€µ…àµÝ¥‘Ñ è€ÐÐÁÁàì(€©ÕÍÑ¥™äµÍ•±˜è•¹ì(€Á…‘‘¥¹œµ±•™Ðè±…µÀ Ä¸ÕÉ•´°€ÑÙÜ°€Ì¸ÕÉ•´¤ì(€‰½É‘•Èµ±•™Ðè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Äà¤ì)ô(¹Í¥¹ÕÀµ…É•„€¹‰ÕÑÑ½¸µÁÉ¥µ…Éäì‰½àµÍ¡…‘½Üè€ÑÁà€ÑÁà€ÀÉ‰„ ÌØ°€ÈØ°€Èà°€¸ÈÔ¤ìô(¹µ…¥±•É±¥Ñ”µµ½Õ¹ÐìÝ¥‘Ñ è€ÄÀÀ”ìô(¹¹•ÝÍ±•ÑÑ•Èµ™…±±‰…¬ì‘¥ÍÁ±…äèÉ¥ì…Àè€¸áÉ•´ìÁ…‘‘¥¹œè±…µÀ Ä¸ÑÉ•´°€ÍÙÜ°€ÉÉ•´¤ì‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸È¤ì‰…­É½Õ¹è€ŒÄÀÄÀÄÄìô(¹¹•ÝÍ±•ÑÑ•Èµ™…±±‰…¬¥¹ÁÕÐìÝ¥‘Ñ è€ÄÀÀ”ìµ¥¸µ¡•¥¡Ðè€ÐáÁàìÁ…‘‘¥¹œè€¸ÜÕÉ•´€¸àÕÉ•´ì‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Ìà¤ì‰½É‘•ÈµÉ…‘¥ÕÌè€Àì‰…­É½Õ¹è€˜Ù˜Å”àì½±½Èè€ŒÄÜÄÜÄäìô(¹¹•ÝÍ±•ÑÑ•Èµ™…±±‰…¬€¹‰ÕÑÑ½¸ìÝ¥‘Ñ è€ÄÀÀ”ìô(¹¹•ÝÍ±•ÑÑ•Èµ™…±±‰…¬€¹™¥¹”µÁÉ¥¹Ðìµ…É¥¸è€Àìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È°(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ…±¥¸µ‘•™…Õ±Ðìµ…É¥¸è€À€…¥µÁ½ÉÑ…¹ÐìÝ¥‘Ñ è€ÄÀÀ”€…¥µÁ½ÉÑ…¹Ðìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘]É…ÁÁ•Èì(€Ý¥‘Ñ è€ÄÀÀ”€…¥µÁ½ÉÑ…¹Ðì(€µ…àµÝ¥‘Ñ è€ÐÐÁÁà€…¥µÁ½ÉÑ…¹Ðì(€‰…­É½Õ¹è€ŒÄÀÄÀÄÄ€…¥µÁ½ÉÑ…¹Ðì(€‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸È¤€…¥µÁ½ÉÑ…¹Ðì(€‰½É‘•ÈµÉ…‘¥ÕÌè€À€…¥µÁ½ÉÑ…¹Ðì(€‰½àµÍ¡…‘½Üè¹½¹”€…¥µÁ½ÉÑ…¹Ðì)ô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘	½‘äìÁ…‘‘¥¹œè±…µÀ Ä¸ÑÉ•´°€ÍÙÜ°€ÉÉ•´¤€…¥µÁ½ÉÑ…¹Ðìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È Ð°(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘	½‘ä Ðì½±½ÈèÙ…È ´µ¥Ù½Éä¤€…¥µÁ½ÉÑ…¹Ðì™½¹Ðµ™…µ¥±äèÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤€…¥µÁ½ÉÑ…¹Ðìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•ÈÀ°(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•ÈÍÁ…¸ì½±½ÈèÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Üà¤€…¥µÁ½ÉÑ…¹Ðì™½¹Ðµ™…µ¥±äèÙ…È ´µÑåÁ”µ•‘¥Ñ½É¥…°¤€…¥µÁ½ÉÑ…¹Ðìô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È¥¹ÁÕÑmÑåÁ”ô‰•µ…¥°‰tì(€‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Ìà¤€…¥µÁ½ÉÑ…¹Ðì(€‰½É‘•ÈµÉ…‘¥ÕÌè€À€…¥µÁ½ÉÑ…¹Ðì(€‰…­É½Õ¹è€˜Ù˜Å”à€…¥µÁ½ÉÑ…¹Ðì(€½±½Èè€ŒÄÜÄÜÄä€…¥µÁ½ÉÑ…¹Ðì)ô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘MÕ‰µ¥Ð‰ÕÑÑ½¸ì(€‰½É‘•Èè€ÅÁàÍ½±¥Ù…È ´µÍ¥¹…°¤€…¥µÁ½ÉÑ…¹Ðì(€‰½É‘•ÈµÉ…‘¥ÕÌè€À€…¥µÁ½ÉÑ…¹Ðì(€‰…­É½Õ¹èÙ…È ´µÍ¥¹…°¤€…¥µÁ½ÉÑ…¹Ðì(€½±½Èè€™™˜€…¥µÁ½ÉÑ…¹Ðì(€™½¹Ðµ™…µ¥±äèÙ…È ´µÑåÁ”µ¹…Ø¤€…¥µÁ½ÉÑ…¹Ðì(€±•ÑÑ•ÈµÍÁ…¥¹œè€¸Àá•´€…¥µÁ½ÉÑ…¹Ðì(€Ñ•áÐµÑÉ…¹Í™½É´èÕÁÁ•É…Í”€…¥µÁ½ÉÑ…¹Ðì)ô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘MÕ‰µ¥Ð‰ÕÑÑ½¸é¡½Ù•È°(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘MÕ‰µ¥Ð‰ÕÑÑ½¸é™½ÕÌµÙ¥Í¥‰±”ì(€‰½É‘•Èµ½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤€…¥µÁ½ÉÑ…¹Ðì(€‰…­É½Õ¹è€ŒÙ˜ÅÈÜ€…¥µÁ½ÉÑ…¹Ðì(€½±½Èè€™™˜€…¥µÁ½ÉÑ…¹Ðì)ô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€µ±ˆÈ´ÈäÈäÌÄØÄ¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘]É…ÁÁ•È€¹µ°µ™½É´µ•µ‰•‘	½‘ä€¹µ°µ™½É´µ•µ‰•‘MÕ‰µ¥Ð‰ÕÑÑ½¸¹ÁÉ¥µ…Éäì(€‰½É‘•Èµ½±½ÈèÙ…È ´µÍ¥¹…°¤€…¥µÁ½ÉÑ…¹Ðì(€‰…­É½Õ¹µ½±½ÈèÙ…È ´µÍ¥¹…°¤€…¥µÁ½ÉÑ…¹Ðì(€½±½Èè€™™˜€…¥µÁ½ÉÑ…¹Ðì)ô(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€µ±ˆÈ´ÈäÈäÌÄØÄ¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘]É…ÁÁ•È€¹µ°µ™½É´µ•µ‰•‘	½‘ä€¹µ°µ™½É´µ•µ‰•‘MÕ‰µ¥Ð‰ÕÑÑ½¸¹ÁÉ¥µ…Éäé¡½Ù•È°(¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°€µ±ˆÈ´ÈäÈäÌÄØÄ¹µ°µ™½É´µ•µ‰•‘½¹Ñ…¥¹•È€¹µ°µ™½É´µ•µ‰•‘]É…ÁÁ•È€¹µ°µ™½É´µ•µ‰•‘	½‘ä€¹µ°µ™½É´µ•µ‰•‘MÕ‰µ¥Ð‰ÕÑÑ½¸¹ÁÉ¥µ…Éäé™½ÕÌµÙ¥Í¥‰±”ì(€‰½É‘•Èµ½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤€…¥µÁ½ÉÑ…¹Ðì(€‰…­É½Õ¹µ½±½Èè€ŒÙ˜ÅÈÜ€…¥µÁ½ÉÑ…¹Ðì(€½±½Èè€™™˜€…¥µÁ½ÉÑ…¹Ðì)ô((¹ÁÕ‰±¥…Ñ¥½¸µ™½±¥¼ì(€µ¥¸µ¡•¥¡Ðè€ÐàÁÁàì(€‘¥ÍÁ±…äè™±•àì(€™±•àµ‘¥É•Ñ¥½¸è½±Õµ¸ì(€Á…‘‘¥¹œè€Ä¸ÐÕÉ•´ì(€½±½Èè€ŒÄÜÄÜÄäì(€‰…­É½Õ¹èÉ•Á•…Ñ¥¹œµ±¥¹•…ÈµÉ…‘¥•¹Ð Á‘•œ°ÑÉ…¹ÍÁ…É•¹Ð€À€ÈÑÁà°É‰„ Ðä°€Ìä°€ÈÜ°€¸ÀØ¤€ÈÕÁà€ÈÙÁà¤°€”Õ‘‰Œàì(€‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸à¤ì(€‰½àµÍ¡…‘½Üè€ÄÕÁà€ÄÕÁà€ÀÉ‰„ äÌ°€ÌÐ°€ÐÈ°€¸ÔÐ¤°€À€ÈáÁà€ØÁÁàÉ‰„ À°€À°€À°€¸Ð¤ì)ô(¹¹½Ù•°µÁ…”ìÁ½Í¥Ñ¥½¸èÉ•±…Ñ¥Ù”ì¥Í½±…Ñ¥½¸è¥Í½±…Ñ”ìô(¹¹½Ù•°µÁ…”èé…™Ñ•Èì(€½¹Ñ•¹Ðè€ˆˆì(€Á½Í¥Ñ¥½¸è…‰Í½±ÕÑ”ì(€èµ¥¹‘•àè€´Äì(€¥¹Í•Ðè€ÍÉ•´€´ÄÉÙÜ…ÕÑ¼…ÕÑ¼ì(€Ý¥‘Ñ èµ¥¸ ÔÉÙÜ°€ÜÈÁÁà¤ì(€¡•¥¡Ðè€ØÈÁÁàì(€½Á…¥Ñäè€¸ÄÔì(€‰…­É½Õ¹èÕÉ° ˆ¸½…ÍÍ•ÑÌ½Ý‰Äµ™±½É„µ…ÍÑ•°µ‘½±½µ¥Ñ•Ìµ±½…°¹Ý•‰Àˆ¤€Üà”•¹Ñ•È€¼½Ù•È¹¼µÉ•Á•…Ðì(€µ…Í¬µ¥µ…”è±¥¹•…ÈµÉ…‘¥•¹Ð äÁ‘•œ°ÑÉ…¹ÍÁ…É•¹Ð°€ŒÀÀÀ€ÌÐ”°€ŒÀÀÀ€ÜÈ”°ÑÉ…¹ÍÁ…É•¹Ð¤ì(€Á½¥¹Ñ•Èµ•Ù•¹ÑÌè¹½¹”ì)ô(¹ÁÕ‰±¥…Ñ¥½¸µ™½±¥¼À°€¹ÁÕ‰±¥…Ñ¥½¸µ™½±¥¼Íµ…±°ìµ…É¥¸è€Àì™½¹Ðµ™…µ¥±äèÙ…È ´µÑåÁ”µ‘…Ñ„¤ì™½¹ÐµÍ¥é”è€¸ØÕÉ•´ì±•ÑÑ•ÈµÍÁ…¥¹œè€¸ÄÍ•´ìÑ•áÐµÑÉ…¹Í™½É´èÕÁÁ•É…Í”ìô(¹ÁÕ‰±¥…Ñ¥½¸µ™½±¥¼ÍÑÉ½¹œìµ…É¥¸è…ÕÑ¼€À€Àì™½¹Ðµ™…µ¥±äèÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤ì™½¹ÐµÍ¥é”è€ÝÉ•´ì™½¹ÐµÝ•¥¡Ðè€ÔÀÀì±•ÑÑ•ÈµÍÁ…¥¹œè€´¸ÀÜÕ•´ì±¥¹”µ¡•¥¡Ðè€¸Üàìô(¹ÁÕ‰±¥…Ñ¥½¸µ™½±¥¼ÍÁ…¸ìµ…É¥¸è€¸áÉ•´€À€Ä¸ÌÕÉ•´ì™½¹Ðè¥Ñ…±¥Œ€ÉÉ•´¼ÄÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤ìô(¹ÁÕ‰±¥…Ñ¥½¸µ™½±¥¼Íµ…±°ì‰½É‘•ÈµÑ½Àè€ÅÁàÍ½±¥É‰„ ÈÌ°€ÈÌ°€ÈÔ°€¸ÐÔ¤ìÁ…‘‘¥¹œµÑ½Àè€¸áÉ•´ìô((¹Í¥Ñ”µ™½½Ñ•Èì‰…­É½Õ¹è€ŒÀäÁˆÁŒìô(¹™½½Ñ•Èµµ…É¬ì‘¥ÍÁ±…äè‰±½¬ìÝ¥‘Ñ è€È¸ÔÕÉ•´ì¡•¥¡Ðè€È¸ÔÕÉ•´ìµ…É¥¸è€À…ÕÑ¼€ÅÉ•´ì½‰©•Ðµ™¥Ðè½¹Ñ…¥¸ì½Á…¥Ñäè€¸ÜÔìô((¹É…¹¬µÅÕ¥èµÁ…”ìµ…àµÝ¥‘Ñ è€ÄÄÈÁÁàìÁ…‘‘¥¹œµÑ½Àè±…µÀ ÑÉ•´°€åÙÜ°€áÉ•´¤ìÁ…‘‘¥¹œµ‰½ÑÑ½´è±…µÀ ÕÉ•´°€ÄÁÙÜ°€åÉ•´¤ìô(¹É…¹¬µÅÕ¥èìµ…àµÝ¥‘Ñ è€àÄÁÁàìµ…É¥¸è€À…ÕÑ¼ìô(¹É…¹¬µÅÕ¥èµ¥¹ÑÉ¼ìµ…àµÝ¥‘Ñ è€ØÔÁÁàìµ…É¥¸µ‰½ÑÑ½´è€Ì¸ÕÉ•´ìô(¹É…¹¬µÅÕ¥èµ¥¹ÑÉ¼ Ä°€¹É…¹¬µÅÕ¥èµÉ•ÍÕ±Ð Äìµ…àµÝ¥‘Ñ è€ÄÅ ìµ…É¥¸è€¸áÉ•´€À€Ä¸ÍÉ•´ì™½¹ÐµÍ¥é”è±…µÀ Ì¸ÈÕÉ•´°€ÝÙÜ°€Ø¸ÉÉ•´¤ì™½¹ÐµÝ•¥¡Ðè€ÔÀÀì±¥¹”µ¡•¥¡Ðè€¸äìô(¹É…¹¬µÅÕ¥èµ¥¹ÑÉ¼€øÀé±…ÍÐµ¡¥±°€¹É…¹¬µÉ•ÍÕ±Ðµ½Áä€øÀìµ…àµÝ¥‘Ñ è€Ôá ì½±½Èè€åÁŒÈì™½¹ÐµÍ¥é”è€Ä¸ÄáÉ•´ì±¥¹”µ¡•¥¡Ðè€Ä¸ÐÔìô(¹ÅÕ¥èµÁÉ½É•ÍÌì‘¥ÍÁ±…äèÉ¥ì…Àè€¸áÉ•´ìµ…É¥¸µ‰½ÑÑ½´è€È¸ÈÕÉ•´ì½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤ì™½¹Ðè€¸ØÝÉ•´¼ÄÙ…È ´µÑåÁ”µ‘…Ñ„¤ì±•ÑÑ•ÈµÍÁ…¥¹œè€¸ÄÑ•´ìÑ•áÐµÑÉ…¹Í™½É´èÕÁÁ•É…Í”ìô(¹ÅÕ¥èµÁÉ½É•ÍÌµÑÉ…¬ì¡•¥¡Ðè€ÉÁàì‰…­É½Õ¹èÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸È¤ìô(¹ÅÕ¥èµÁÉ½É•ÍÌµÑÉ…¬ÍÁ…¸ì‘¥ÍÁ±…äè‰±½¬ì¡•¥¡Ðè€ÄÀÀ”ì‰…­É½Õ¹èÙ…È ´µ‰É…ÍÌµÍ½™Ð¤ìÑÉ…¹Í¥Ñ¥½¸èÝ¥‘Ñ €¸ÈáÌ•…Í”ìô(¹ÅÕ¥èµÅÕ•ÍÑ¥½¸ìÁ…‘‘¥¹œè±…µÀ Ä¸ØÕÉ•´°€ÕÙÜ°€ÍÉ•´¤ì‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸ÈÐ¤ì‰…­É½Õ¹è±¥¹•…ÈµÉ…‘¥•¹Ð ÄÌÕ‘•œ°É‰„ Øà°€Ìä°€ÐÈ°€¸ÈÈ¤°É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸ÀÈÔ¤¤ìô(¹ÅÕ¥èµÅÕ•ÍÑ¥½¸ Èìµ…àµÝ¥‘Ñ è€ÈÉ ìµ…É¥¸è€¸ÔÕÉ•´€À€È¸ÅÉ•´ì™½¹ÐµÍ¥é”è±…µÀ Ä¸áÉ•´°€ÑÙÜ°€ÍÉ•´¤ì™½¹ÐµÝ•¥¡Ðè€ÔÀÀì±¥¹”µ¡•¥¡Ðè€Ä¸Ààìô(¹ÅÕ¥èµ…¹ÍÝ•ÉÌì‘¥ÍÁ±…äèÉ¥ì…Àè€¸ÝÉ•´ìô(¹ÅÕ¥èµ…¹ÍÝ•ÈìÝ¥‘Ñ è€ÄÀÀ”ì‘¥ÍÁ±…äèÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹Ìè€È¸ÅÉ•´€Å™Èì…±¥¸µ¥Ñ•µÌèÍÑ…ÉÐì…Àè€ÅÉ•´ìÁ…‘‘¥¹œè€ÅÉ•´€Ä¸ÅÉ•´ì½±½ÈèÙ…È ´µ¥Ù½Éä¤ìÑ•áÐµ…±¥¸è±•™Ðì‰½É‘•Èè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸ÈØ¤ì‰…­É½Õ¹èÉ‰„ ÄÀ°€ÄÈ°€ÄÌ°€¸Ìà¤ì™½¹Ðè€Ä¸ÀÙÉ•´¼Ä¸ÌÔÙ…È ´µÑåÁ”µ•‘¥Ñ½É¥…°¤ìÕÉÍ½ÈèÁ½¥¹Ñ•ÈìÑÉ…¹Í¥Ñ¥½¸èÑÉ…¹Í™½É´€¸ÄáÌ•…Í”°‰…­É½Õ¹€¸ÄáÌ•…Í”°‰½É‘•Èµ½±½È€¸ÄáÌ•…Í”ìô(¹ÅÕ¥èµ…¹ÍÝ•ÈÍÁ…¸ì½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤ì™½¹Ðè€¸ØáÉ•´¼Ä¸ØÔÙ…È ´µÑåÁ”µ‘…Ñ„¤ì±•ÑÑ•ÈµÍÁ…¥¹œè€¸Å•´ìô(¹ÅÕ¥èµ…¹ÍÝ•Èé¡½Ù•È°€¹ÅÕ¥èµ…¹ÍÝ•Èé™½ÕÌµÙ¥Í¥‰±”ì‰½É‘•Èµ½±½ÈèÙ…È ´µ‰É…ÍÌµÍ½™Ð¤ì‰…­É½Õ¹èÉ‰„ ÄÐÄ°€ÐÄ°€ÔÌ°€¸Ì¤ìÑÉ…¹Í™½É´èÑÉ…¹Í±…Ñ•` ¸ÌÕÉ•´¤ì½ÕÑ±¥¹”è€Àìô(¹ÅÕ¥èµ‰…¬ìµ…É¥¸µÑ½Àè€Ä¸ÝÉ•´ì½±½ÈèÙ…È ´µ…Í ¤ì‰…­É½Õ¹èÑÉ…¹ÍÁ…É•¹Ðì‰½É‘•Èè€ÀìÕÉÍ½ÈèÁ½¥¹Ñ•Èì™½¹Ðè€¸ØáÉ•´¼ÄÙ…È ´µÑåÁ”µ‘…Ñ„¤ì±•ÑÑ•ÈµÍÁ…¥¹œè€¸Å•´ìÑ•áÐµÑÉ…¹Í™½É´èÕÁÁ•É…Í”ìô(¹ÅÕ¥èµ‰…¬é‘¥Í…‰±•ìÕÉÍ½Èè¹½Ðµ…±±½Ý•ì½Á…¥Ñäè€¸Ðìô(¹É…¹¬µÅÕ¥èµÉ•ÍÕ±Ðì‘¥ÍÁ±…äèÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹Ìèµ¥¹µ…à À°€Å™È¤µ¥¹µ…à ÈÔÁÁà°€¸ØÕ™È¤ì…±¥¸µ¥Ñ•µÌè•¹Ñ•Èì…Àè±…µÀ È¸ÕÉ•´°€åÙÜ°€ÝÉ•´¤ìô(¹É…¹¬µÉ•ÍÕ±Ðµ½Áä€¹™¥¹”µÁÉ¥¹Ðìµ…É¥¸µÑ½Àè€Ä¸áÉ•´ì½±½ÈèÉ‰„ ÈÈÔ°€ÈÄÀ°€ÄäÔ°€¸ØÔ¤ì™½¹Ðµ™…µ¥±äèÙ…È ´µÑåÁ”µÕ¤¤ì™½¹ÐµÍ¥é”è€¸åÉ•´ìô(¹É…¹¬µÅÕ¥èµ…Ñ¥½¹Ìì‘¥ÍÁ±…äè™±•àì™±•àµÝÉ…ÀèÝÉ…Àì…Àè€¸áÉ•´ìµ…É¥¸µÑ½Àè€ÉÉ•´ìô(¹É…¹¬µÍ•…°µ…ÉìÁ½Í¥Ñ¥½¸èÉ•±…Ñ¥Ù”ìµ…É¥¸è€ÀìÁ…‘‘¥¹œè±…µÀ Ä¸ÉÉ•´°€ÍÙÜ°€ÉÉ•´¤ì½±½Èè€ŒÄÜÄÜÄäì‰…­É½Õ¹è€™…˜å˜Øì‰½àµÍ¡…‘½Üè€ÄÙÁà€ÄÝÁà€ÀÉ‰„ ÄÌä°€Ðà°€ÔÔ°€¸ØØ¤°€À€ÈáÁà€ÔÙÁàÉ‰„ À°€À°€À°€¸ÌÐ¤ìÑÉ…¹Í™½É´èÉ½Ñ…Ñ” É‘•œ¤ìô(¹É…¹¬µÍ•…°µ…Éèé‰•™½É”ì½¹Ñ•¹Ðè€‰=I<M=1%L€¼%9%Q%QI9,ˆì‘¥ÍÁ±…äè‰±½¬ìµ…É¥¸µ‰½ÑÑ½´è€ÅÉ•´ì½±½Èè€ŒÐÌÍˆÌÌì™½¹Ðè€¸ØÅÉ•´¼ÄÙ…È ´µÑåÁ”µ‘…Ñ„¤ì±•ÑÑ•ÈµÍÁ…¥¹œè€¸ÄÍ•´ìÑ•áÐµ…±¥¸è•¹Ñ•Èìô(¹É…¹¬µÍ•…°µ…É¥µœì‘¥ÍÁ±…äè‰±½¬ìÝ¥‘Ñ è€ÄÀÀ”ì…ÍÁ•ÐµÉ…Ñ¥¼è€Äì½‰©•Ðµ™¥Ðè½¹Ñ…¥¸ì‰…­É½Õ¹è€™™˜ìô(¹É…¹¬µÍ•…°µ…É™¥…ÁÑ¥½¸ìµ…É¥¸µÑ½Àè€ÅÉ•´ì™½¹Ðè€ÔÀÀ±…µÀ ÉÉ•´°€ÑÙÜ°€Ì¸ÑÉ•´¤¼¸äÙ…È ´µÑåÁ”µ‘¥ÍÁ±…ä¤ìÑ•áÐµ…±¥¸è•¹Ñ•Èìô(¹É…¹¬µÍ•…°µ±…¥µ•ì½±½Èè€™™˜ì‰…­É½Õ¹è€äÅÈÔì‰½àµÍ¡…‘½Üè€ÄÙÁà€ÄÝÁà€ÀÉ‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Äà¤°€À€ÈáÁà€ÔÙÁàÉ‰„ À°€À°€À°€¸ÌÐ¤ìô(¹É…¹¬µÍ•…°µ±…¥µ•èé‰•™½É”ì½±½Èè€™™˜ìô(¹É…¹¬µÍ•…°µ±…¥µ•¥µœì‰…­É½Õ¹è€äÅÈÔìô()µ•‘¥„€¡µ…àµÝ¥‘Ñ è€ÜÀÁÁà¤ì(€€¹¡•É¼ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹Ìè€Å™ÈìÁ…‘‘¥¹œµÉ¥¡Ðè€Ä¸ÈÕÉ•´ìÁ…‘‘¥¹œµ±•™Ðè€Ä¸ÈÕÉ•´ìÁ…‘‘¥¹œµÑ½Àè€ÑÉ•´ìô(€€¹¡•É¼ Äì™½¹ÐµÍ¥é”è±…µÀ Ð¸ÑÉ•´°€ÈÅÙÜ°€Ø¸ÅÉ•´¤ìô(€€¹¡•É¼µÙ¥‘•¼ì½Á…¥Ñäè€¸ÈÐìô(€€¹¡•É¼µ‘½ÍÍ¥•ÈìÝ¥‘Ñ èµ¥¸ àÑÙÜ°€ÌÐÁÁà¤ìµ¥¸µ¡•¥¡Ðè€ÌÜÁÁàì©ÕÍÑ¥™äµÍ•±˜è•¹Ñ•ÈìÉ¥µÉ½Üè€ÄìÑÉ…¹Í™½É´èÉ½Ñ…Ñ” Ä¸Õ‘•œ¤ìô(€€¹Ñ½Á½É…Á¡äµ±…‰•°ìÑ½Àè€ÄÈ”ìô(€€¹¡•É¼µå•…ÈìÉ¥¡Ðè€´ÅÉ•´ì™½¹ÐµÍ¥é”è€ÄÍÉ•´ìô(€€¹¡•É¼µ½É‘•Èµµ…É¬ìÉ¥¡Ðè€Ø”ì‰½ÑÑ½´è€Ì”ìÝ¥‘Ñ è€ÕÉ•´ìô(€€¹¥¹ÑÉ¼µÉ…¥°ìµ¥¸µ¡•¥¡Ðè€Àìµ…É¥¸µ‰½ÑÑ½´è€Ä¸ÝÉ•´ìô(€€¹¥¹ÑÉ¼µÉ…¥°€¹•å•‰É½Üìµ…É¥¸µ‰½ÑÑ½´è€¸àÕÉ•´ìô(€€¹¥¹ÑÉ¼µ…É¡¥Ù”µ¥µ…”ìÝ¥‘Ñ èµ¥¸ ÄÕÉ•´°€ØÑÙÜ¤ìô(€€¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±ÌìÁ…‘‘¥¹œµÉ¥¡Ðè€Ä¸ÈÕÉ•´ìÁ…‘‘¥¹œµ±•™Ðè€Ä¸ÈÕÉ•´ìô(€€¹Ñ•ÍÑ¥µ½¹¥…±Ìµ¥¹ÑÉ¼ì‘¥ÍÁ±…äè‰±½¬ìµ…É¥¸µ‰½ÑÑ½´è€Ä¸ÝÉ•´ìô(€€¹Ñ•ÍÑ¥µ½¹¥…±Ìµ¥¹ÑÉ¼€¹•å•‰É½Üìµ…É¥¸µ‰½ÑÑ½´è€¸áÉ•´ìô(€€¹Ñ•ÍÑ¥µ½¹¥…±Ìµ¥¹ÑÉ¼ Èìµ…É¥¸µ‰½ÑÑ½´è€ÅÉ•´ìô(€€¹Ñ•ÍÑ¥µ½¹¥…°µÉ¥ìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹Ìè€Å™Èìô(€€¹Ñ•ÍÑ¥µ½¹¥…°µ…É°€¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ™Õ±°€¹Ñ•ÍÑ¥µ½¹¥…°µ…Éìµ¥¸µ¡•¥¡Ðè€Àìô(€€¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ™Õ±°€¹Ñ•ÍÑ¥µ½¹¥…±Ìµ¥¹ÑÉ¼ìÁ…‘‘¥¹œµ‰½ÑÑ½´è€Ä¸ÌÕÉ•´ìô(€€¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ™Õ±°€¹Ñ•ÍÑ¥µ½¹¥…°µ…ÉìÁ…‘‘¥¹œè€Ä¸ÌÕÉ•´ìô(€€¹É•…‘•ÈµÑ•ÍÑ¥µ½¹¥…±Ìµ¡½µ”€¹Ñ•ÍÑ¥µ½¹¥…°µ…Éìµ¥¸µ¡•¥¡Ðè€ÈÄÁÁàìô(€€¹¹½Ù•°µÁ…”èé…™Ñ•Èì¥¹Í•Ðè€ÍÉ•´€´ÈÑÙÜ…ÕÑ¼…ÕÑ¼ìÝ¥‘Ñ è€ÄÄÁÙÜì½Á…¥Ñäè€¸ÄÄìô(€€¹Í•Ñ¥½¸µÉ¥ Èìµ…àµÝ¥‘Ñ è€ÄÀÀ”ìô(€€¹…É¡¥Ù”µ…É‘Ìì‘¥ÍÁ±…äè‰±½¬ìô(€€¹…É¡¥Ù”µ…É‘Ì…ÉÑ¥±”°€¹…É¡¥Ù”µ…É‘ÌÍ•Ñ¥½¸ìµ¥¸µ¡•¥¡Ðè€Àì‰½É‘•ÈµÉ¥¡Ðè€Àì‰½É‘•Èµ‰½ÑÑ½´è€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸È¤ìô(€€¹…É¡¥Ù”µ…É‘Ì…ÉÑ¥±”é±…ÍÐµ¡¥±ì‰½É‘•Èµ‰½ÑÑ½´è€Àìô(€€¹¹•ÝÍ±•ÑÑ•ÈµÁ…¹•°ì‰½àµÍ¡…‘½Üè¹½¹”ìô(€€¹Í¥¹ÕÀµ…É•„ìµ…àµÝ¥‘Ñ è¹½¹”ìÁ…‘‘¥¹œµ±•™Ðè€Àì‰½É‘•Èµ±•™Ðè€Àì‰½É‘•ÈµÑ½Àè€ÅÁàÍ½±¥É‰„ ÈÌà°€ÈÌÀ°€ÈÄÐ°€¸Äà¤ìÁ…‘‘¥¹œµÑ½Àè€Ä¸ÕÉ•´ìô(€€¹…ÕÑ¡½ÈµÁÉ½™¥±”ì‘¥ÍÁ±…äè‰±½¬ìô(€€¹É…¹¬µÅÕ¥èµÁ…”ìÁ…‘‘¥¹œµÉ¥¡Ðè€Ä¸ÈÕÉ•´ìÁ…‘‘¥¹œµ±•™Ðè€Ä¸ÈÕÉ•´ìô(€€¹É…¹¬µÅÕ¥èµÉ•ÍÕ±ÐìÉ¥µÑ•µÁ±…Ñ”µ½±Õµ¹Ìè€Å™Èìô(€€¹É…¹¬µÍ•…°µ…ÉìÝ¥‘Ñ èµ¥¸ ÄÀÀ”°€ÌØÁÁà¤ì©ÕÍÑ¥™äµÍ•±˜è•¹Ñ•Èìô)ô()µ•‘¥„€¡ÁÉ•™•ÉÌµÉ•‘Õ•µµ½Ñ¥½¸èÉ•‘Õ”¤ì(€€¹¡•É¼µÍµ½­”ÍÁ…¸ì…¹¥µ…Ñ¥½¸è¹½¹”ìô)ô(
+@media (max-width: 700px) { .header-inner { min-height: 64px; padding: 0 1.1rem; }.wordmark { font-size: 1.1rem; }.desktop-nav { display: none; }.menu-toggle { display: inline-flex; }.mobile-nav { display: grid; padding: .75rem 1.1rem 1.1rem; background: #171617; border-top: 1px solid var(--line); }.mobile-nav a { padding: .85rem 0; color: var(--bone); font-size: .9rem; text-decoration: none; }.mobile-nav .button { margin-top: .65rem; padding: .65rem .8rem; }.hero { min-height: auto; padding: 4rem 1.25rem 3rem; grid-template-columns: 1fr; gap: 2.4rem; }.hero h1 { font-size: clamp(3.5rem, 16vw, 5.3rem); }.hero-premise { font-size: 1.38rem; }.cover-stage { width: min(78vw, 350px); justify-self: center; grid-row: 1; }.cover-placeholder { min-height: 420px; }.release-actions { display: grid; grid-template-columns: 1fr; }.button { width: 100%; }.section-grid, .author-section { display: block; padding: 4rem 1.25rem; }.section-grid > .eyebrow, .author-section > div:first-child { margin-bottom: 1.4rem; }.prose { font-size: 1.25rem; }.reading-invitation { padding: 3rem 1.25rem; display: block; }.reading-invitation .button { margin-top: 1.5rem; }.archive-preview { padding: 4rem 1.25rem; }.archive-cards { grid-template-columns: 1fr; }.archive-cards article, .archive-cards section { min-height: auto; }.newsletter-panel { margin: 0 1.25rem 4rem; padding: 2rem 1.3rem; grid-template-columns: 1fr; gap: 1.5rem; }.page-shell { padding: 4rem 1.25rem; }.novel-layout { grid-template-columns: 1fr; }.detail-cover { width: min(74vw, 350px); }.reading-page { padding: 4rem 1.25rem 3rem; }.chapter-text { font-size: 1.27rem; line-height: 1.58; }.chapter-end { margin-left: -1.25rem; margin-right: -1.25rem; padding: 2rem 1.25rem; }.site-footer { padding-left: 1.25rem; padding-right: 1.25rem; } }
+@media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; } }
+
+@media (max-width: 700px) {
+  .policy-intro h1 { font-size: clamp(3rem, 14vw, 4.55rem); }
+  .content-notes-panel { padding: 1.6rem 1.35rem; }
+  .policy-stack section { padding: 1.45rem 1.35rem 1.55rem; }
+}
+
+/* WBQ editorial art direction: a sparse institutional archive rather than a generic dark landing page. */
+:root {
+  --night: #191817;
+  --evergreen: var(--wbq-pine);
+  --ash: var(--wbq-moon);
+  --ivory: var(--wbq-paper);
+  --signal: var(--wbq-oxblood);
+  --type-display: var(--wbq-font-display);
+  --type-nav: var(--wbq-font-ui);
+  --type-data: "DM Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+.App {
+  background:
+    radial-gradient(circle at 96% 9%, rgba(178, 143, 80, .16), transparent 22rem),
+    radial-gradient(circle at 7% 36%, rgba(94, 35, 41, .13), transparent 25rem),
+    linear-gradient(145deg, var(--night) 0%, #161b1a 47%, #0d1011 100%);
+}
+
+.site-header { background: rgba(13, 16, 17, .84); border-bottom-color: rgba(238, 230, 214, .14); }
+.wordmark { font-family: var(--type-display); font-weight: 600; letter-spacing: .025em; }
+.wordmark-mark { display: inline-grid; width: 1.45rem; height: 1.45rem; place-items: center; overflow: hidden; }
+.wordmark-mark img { width: 100%; max-width: none; opacity: .9; }
+.desktop-nav { font-family: var(--type-data); font-size: .67rem; letter-spacing: .13em; }
+.eyebrow, .card-label, .release-line, .text-link, .button { font-family: var(--type-nav); }
+.desktop-nav a { position: relative; }
+.desktop-nav a:not(.nav-cta)::after { content: ""; position: absolute; right: 0; bottom: -.45rem; left: 0; height: 1px; background: var(--brass-soft); transform: scaleX(0); transform-origin: right; transition: transform .24s ease; }
+.desktop-nav a:not(.nav-cta):hover::after, .desktop-nav a:not(.nav-cta):focus-visible::after { transform: scaleX(1); transform-origin: left; }
+.nav-cta { border-color: rgba(212, 186, 138, .72); }
+
+h1, h2, h3 { font-family: var(--type-display); }
+h1 { font-weight: 500; letter-spacing: -.045em; }
+
+.hero {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding-left: max(2rem, calc((100vw - 1240px) / 2));
+  padding-right: max(2rem, calc((100vw - 1240px) / 2));
+  min-height: min(840px, calc(100vh - 72px));
+  grid-template-columns: minmax(0, 1.32fr) minmax(280px, .55fr);
+  gap: clamp(2rem, 6vw, 7rem);
+  isolation: isolate;
+  overflow: hidden;
+}
+.hero-video {
+  position: absolute;
+  z-index: -3;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: .34;
+  filter: sepia(.42) saturate(.78) contrast(1.08) brightness(.58);
+}
+.hero-smoke { position: absolute; z-index: -2; inset: 0; overflow: hidden; pointer-events: none; }
+.hero-smoke span {
+  position: absolute;
+  width: clamp(22rem, 40vw, 46rem);
+  aspect-ratio: 1.55;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(220, 216, 203, .13) 0%, rgba(198, 191, 175, .055) 34%, transparent 70%);
+  filter: blur(26px);
+  mix-blend-mode: screen;
+  opacity: .72;
+  animation: smoke-drift 20s ease-in-out infinite alternate;
+}
+.hero-smoke span:nth-child(1) { top: 8%; left: -18%; }
+.hero-smoke span:nth-child(2) { right: -16%; bottom: 5%; opacity: .46; animation-duration: 27s; animation-delay: -8s; }
+.hero-smoke span:nth-child(3) { top: 42%; left: 34%; width: clamp(15rem, 28vw, 32rem); opacity: .3; animation-duration: 23s; animation-delay: -15s; }
+@keyframes smoke-drift { from { transform: translate3d(-3%, -2%, 0) scale(.94); } to { transform: translate3d(9%, 5%, 0) scale(1.12); } }
+.hero::before { top: 17%; background: linear-gradient(90deg, transparent, rgba(238, 230, 214, .3), transparent); }
+.hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 4% -18% -13% 35%;
+  opacity: .43;
+  background-image:
+    linear-gradient(90deg, var(--night) 0%, rgba(13, 16, 17, .78) 28%, rgba(13, 16, 17, .08) 70%),
+    repeating-radial-gradient(ellipse 90% 72% at 90% 5%, transparent 0 24px, rgba(212, 186, 138, .18) 25px 26px, transparent 27px 45px),
+    url("./assets/wbq-flora-castel-dolomites-local.webp");
+  background-position: center, center, center right;
+  background-repeat: no-repeat;
+  background-size: cover, auto, cover;
+  mask-image: linear-gradient(90deg, transparent, #000 25%, #000 82%, transparent);
+}
+.hero-topography { position: absolute; z-index: -1; inset: 0; pointer-events: none; }
+.topography-label { position: absolute; top: 21%; right: 5%; color: rgba(238, 230, 214, .36); font: .65rem/1 var(--type-data); letter-spacing: .16em; text-transform: uppercase; writing-mode: vertical-rl; }
+.hero-year { position: absolute; right: -1.2rem; bottom: 1rem; color: rgba(238, 230, 214, .055); font-family: var(--type-display); font-size: clamp(11rem, 23vw, 22rem); font-style: italic; font-weight: 600; letter-spacing: -.11em; line-height: .65; }
+.hero-order-mark { position: absolute; right: 37%; bottom: 9%; width: clamp(5rem, 9vw, 8.25rem); opacity: .16; filter: sepia(.32) contrast(.9) brightness(1.3); mix-blend-mode: screen; }
+.hero-copy { padding-bottom: 1rem; }
+.hero h1 { max-width: 720px; color: var(--ivory); font-size: clamp(4.8rem, 10vw, 9rem); font-weight: 500; line-height: .88; }
+.byline { margin: 1.15rem 0 2.2rem; color: var(--ash); font-size: 1.36rem; }
+.hero-premise { max-width: 610px; color: #d8d1c5; font-size: clamp(1.32rem, 2.1vw, 1.78rem); line-height: 1.22; }
+.release-line { color: var(--brass-soft); }
+.inscription { border-left: 1px solid rgba(212, 186, 138, .48); padding-left: 1rem; }
+.button { border-radius: 0; min-height: 48px; }
+.button-primary { background: var(--signal); border-color: #b95662; box-shadow: 5px 5px 0 rgba(238, 230, 214, .12); }
+.button-primary:hover { background: #a63846; box-shadow: 8px 8px 0 rgba(238, 230, 214, .16); }
+.button-secondary { border-color: rgba(212, 186, 138, .66); }
+.button-secondary:hover { background: rgba(212, 186, 138, .14); }
+
+.hero-dossier {
+  width: min(100%, 330px);
+  min-height: 510px;
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  color: #171719;
+  background:
+    linear-gradient(100deg, rgba(72, 56, 34, .07), transparent 21%),
+    repeating-linear-gradient(0deg, transparent 0 24px, rgba(49, 39, 27, .06) 25px 26px),
+    url("./assets/ordo-solis-sun-seal.webp") right 1.35rem top 4.2rem / 68px no-repeat,
+    #e5dbc8;
+  border: 1px solid rgba(238, 230, 214, .8);
+  box-shadow: 17px 18px 0 rgba(93, 34, 42, .58), 0 28px 70px rgba(0, 0, 0, .48);
+  transform: rotate(2.1deg);
+}
+.dossier-rule { height: 6px; margin-bottom: 1rem; background: var(--signal); }
+.dossier-kicker, .dossier-note, .dossier-index { font: .64rem/1.45 var(--type-data); letter-spacing: .12em; text-transform: uppercase; }
+.dossier-kicker { max-width: 21rem; margin-bottom: auto; line-height: 1.55; }
+.dossier-place { margin: 0 0 1.5rem; font-family: var(--type-display); font-size: clamp(2.35rem, 3.3vw, 3.1rem); font-weight: 500; letter-spacing: -.055em; line-height: .88; }
+.dossier-index { display: flex; justify-content: space-between; padding: .65rem 0; border-top: 1px solid rgba(23, 23, 25, .45); border-bottom: 1px solid rgba(23, 23, 25, .45); }
+.dossier-note { margin: 1.2rem 0 0; max-width: 17rem; color: #4a4340; }
+.dossier-link { display: inline-flex; align-items: center; width: fit-content; margin-top: 1rem; padding: .7rem .8rem; border: 1px solid #7a2530; background: var(--signal); color: #fff; font: 700 .62rem/1.35 var(--type-nav); letter-spacing: .1em; text-decoration: none; text-transform: uppercase; box-shadow: 3px 3px 0 rgba(23, 23, 25, .18); }
+.dossier-link:hover, .dossier-link:focus-visible { background: #6f1d27; color: #fff; }
+
+.intro-section, .author-section { border-top-color: rgba(238, 230, 214, .18); }
+.intro-section { position: relative; }
+.intro-section::before { content: "01"; position: absolute; top: clamp(4rem, 8vw, 8rem); left: max(2rem, calc((100% - 1240px)/2)); color: rgba(212, 186, 138, .35); font: .68rem/1 var(--type-data); letter-spacing: .16em; }
+.section-grid {
+  grid-template-columns: .42fr minmax(15rem, 1.06fr) minmax(18rem, 1fr);
+  align-items: start;
+  column-gap: clamp(2rem, 4vw, 4.5rem);
+}
+.section-grid h2 {
+  max-width: 10.75ch;
+  margin: -.08em 0 0;
+  font-size: clamp(2.45rem, 4.15vw, 4.55rem);
+  line-height: .94;
+  letter-spacing: -.042em;
+  text-wrap: balance;
+}
+.section-grid .prose { padding-top: .15rem; }
+.intro-rail { position: relative; min-height: 13rem; }
+.intro-rail .eyebrow { margin-bottom: 1.6rem; }
+.intro-archive-image {
+  position: relative;
+  width: min(114%, 12.5rem);
+  aspect-ratio: 4 / 5;
+  margin: 0;
+  overflow: hidden;
+  background: #0b0d0e;
+  border: 1px solid rgba(238, 230, 214, .24);
+  box-shadow: 8px 8px 0 rgba(111, 29, 39, .34);
+}
+.intro-archive-image::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background: linear-gradient(180deg, rgba(10, 13, 14, .24), rgba(10, 13, 14, .8)), linear-gradient(90deg, rgba(111, 29, 39, .22), transparent 58%);
+  pointer-events: none;
+}
+.intro-archive-image::after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  inset: 14% 9% auto auto;
+  width: 3rem;
+  aspect-ratio: 1;
+  opacity: .22;
+  background: url("./assets/ordo-solis-sun-seal.webp") center / contain no-repeat;
+  filter: sepia(.35) brightness(1.4);
+  pointer-events: none;
+}
+.intro-archive-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 57% 56%;
+  filter: grayscale(1) sepia(.4) saturate(.7) contrast(1.12) brightness(.62);
+  transform: scale(1.06);
+}
+.intro-archive-image figcaption {
+  position: absolute;
+  z-index: 2;
+  right: .65rem;
+  bottom: .6rem;
+  left: .65rem;
+  color: rgba(238, 230, 214, .78);
+  font: .56rem/1.3 var(--type-data);
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+.prose { color: #ddd5c8; }
+
+.reader-testimonials { max-width: 1240px; margin: 0 auto; padding: clamp(4rem, 7vw, 7rem) 2rem; border-top: 1px solid rgba(238, 230, 214, .18); }
+.reader-testimonials-home { padding-bottom: clamp(4.5rem, 8vw, 8rem); }
+.reader-testimonials-home .testimonials-intro { display: block; margin-bottom: 1.6rem; }
+.reader-testimonials-home .testimonials-intro h2 { max-width: 24ch; font-size: clamp(2.25rem, 3.15vw, 3.25rem); }
+.testimonials-intro { display: grid; grid-template-columns: .42fr 1.12fr 1fr; column-gap: 3rem; align-items: end; margin-bottom: 2.2rem; }
+.testimonials-intro .eyebrow { margin: 0 0 .55rem; }
+.testimonials-intro h2 { max-width: 16ch; margin: 0; font-size: clamp(2.25rem, 3.2vw, 3.25rem); line-height: 1; }
+.testimonials-intro > p:not(.eyebrow) { max-width: 28ch; margin: 0 0 .4rem; color: #d8d1c5; font-family: var(--serif); font-size: 1.24rem; }
+.testimonial-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; border: 1px solid rgba(238, 230, 214, .22); background: rgba(238, 230, 214, .22); }
+.testimonial-card { position: relative; min-height: 192px; margin: 0; padding: clamp(1.35rem, 2.4vw, 1.85rem); display: flex; flex-direction: column; justify-content: space-between; background: linear-gradient(145deg, rgba(238, 230, 214, .05), rgba(238, 230, 214, .012)); }
+.testimonial-card::before { content: "â€œ"; position: absolute; top: .35rem; right: .85rem; color: rgba(212, 186, 138, .14); font: 5rem/.8 var(--type-display); }
+.testimonial-card blockquote { position: relative; z-index: 1; max-width: 36ch; margin: 0; color: var(--ivory); font: clamp(1.15rem, 1.7vw, 1.45rem)/1.3 var(--type-display); letter-spacing: -.018em; }
+.testimonial-card figcaption { margin-top: 1.5rem; color: var(--brass-soft); font: .61rem/1 var(--type-data); letter-spacing: .14em; text-transform: uppercase; }
+.testimonials-link { margin-top: 1.25rem; }
+.reader-testimonials-full { padding: clamp(4.5rem, 9vw, 8rem) 0 0; }
+.reader-testimonials-full .testimonials-intro { display: block; padding: 0 0 1.65rem; margin-bottom: 0; border-bottom: 1px solid rgba(238, 230, 214, .22); }
+.reader-testimonials-full .testimonials-intro h2 { max-width: 24ch; margin-bottom: .75rem; }
+.reader-testimonials-full .testimonial-grid { border-top: 0; }
+.reader-testimonials-full .testimonial-card { min-height: 226px; padding: clamp(1.55rem, 3vw, 2.25rem); overflow: hidden; border-left: 2px solid #8c555d; background: linear-gradient(140deg, #2a171d, #141516 72%); }
+.reader-testimonials-full .testimonial-card-luca { border-left-color: #657c72; background: linear-gradient(140deg, #17251f, #121615 72%); }
+.reader-testimonials-full .testimonial-card-world { border-left-color: #667f96; background: linear-gradient(140deg, #172533, #111517 72%); }
+.reader-testimonials-full .testimonial-card-tension { border-left-color: #a78258; background: linear-gradient(140deg, #2c2018, #151514 72%); }
+.reader-testimonials-full .testimonial-card::before { top: auto; right: 1rem; bottom: -.2rem; color: rgba(238, 230, 214, .08); font-size: 6rem; }
+.reader-testimonials-full .testimonial-card figcaption { margin-top: 1.7rem; color: rgba(238, 230, 214, .6); font: .61rem/1 var(--type-data); letter-spacing: .14em; text-transform: uppercase; }
+.reader-testimonials-full .testimonial-card blockquote { display: grid; gap: .18rem; max-width: 25ch; font: clamp(1.06rem, 1.45vw, 1.3rem)/1.18 var(--type-display); letter-spacing: -.016em; }
+.reader-testimonials-full .testimonial-card blockquote span { color: rgba(238, 230, 214, .8); }
+.reader-testimonials-full .testimonial-card blockquote strong { color: #fff; font-size: clamp(1.42rem, 2vw, 1.8rem); font-weight: 500; line-height: 1.02; }
+.reader-testimonials-full .testimonial-card blockquote em { color: var(--brass-soft); font-style: italic; }
+
+.reader-testimonials-home .testimonial-card { min-height: 220px; padding: clamp(1.65rem, 3.5vw, 2.7rem); overflow: hidden; border-left: 2px solid var(--brass-soft); background: linear-gradient(135deg, rgba(88, 34, 41, .56), rgba(22, 21, 21, .92) 62%); }
+.reader-testimonials-home .testimonial-card-tension { border-left-color: #7c8c78; background: linear-gradient(135deg, rgba(37, 55, 45, .62), rgba(21, 23, 22, .94) 62%); }
+.reader-testimonials-home .testimonial-card::before { top: auto; right: 1.2rem; bottom: -.2rem; color: rgba(238, 230, 214, .1); font-size: 7rem; }
+.reader-testimonials-home .testimonial-card blockquote { display: grid; gap: .18rem; max-width: 20ch; font: clamp(1.1rem, 1.5vw, 1.35rem)/1.16 var(--type-display); letter-spacing: -.022em; }
+.reader-testimonials-home .testimonial-card blockquote span { color: rgba(238, 230, 214, .82); }
+.reader-testimonials-home .testimonial-card blockquote strong { color: #fff; font-size: clamp(1.5rem, 2.2vw, 2rem); font-weight: 500; line-height: 1; }
+.reader-testimonials-home .testimonial-card blockquote em { color: var(--brass-soft); font-style: italic; }
+.reader-testimonials-home .testimonial-card figcaption { margin-top: 1.8rem; color: rgba(238, 230, 214, .68); }
+.author-profile {
+  max-width: 940px;
+  padding-top: clamp(3rem, 5vw, 4.5rem);
+  padding-bottom: clamp(3rem, 5vw, 4.5rem);
+  grid-template-columns: minmax(210px, .72fr) minmax(0, 1.28fr);
+  column-gap: clamp(2rem, 6vw, 5rem);
+}
+.author-profile .prose { max-width: var(--wbq-reading-width); font-size: 1.28rem; }
+.author-profile .prose p { margin-bottom: 1rem; }
+.text-link { border-bottom: 1px solid rgba(212, 186, 138, .55); padding-bottom: .35rem; transition: color .2s, border-color .2s; }
+.text-link:hover { border-color: var(--ivory); }
+
+.reading-invitation {
+  position: relative;
+  overflow: hidden;
+  background-color: var(--signal);
+  background-image: linear-gradient(90deg, rgba(111, 29, 39, .97), rgba(111, 29, 39, .78)), url("./assets/wbq-flora-castel-dolomites-local.webp");
+  background-position: center, 76% center;
+  background-size: cover, cover;
+  border-color: rgba(238, 230, 214, .26);
+}
+.reading-invitation::after { content: "I"; position: absolute; right: 4%; top: -16%; color: rgba(238, 230, 214, .1); font: italic 25rem/.8 var(--type-display); }
+.reading-invitation > * { position: relative; z-index: 1; }
+.reading-invitation .eyebrow { color: #f0c48b; }
+.reading-invitation h2 { color: var(--ivory); }
+.reading-invitation .button-primary { background: var(--ivory); border-color: var(--ivory); color: #5a202b; box-shadow: 5px 5px 0 rgba(0, 0, 0, .22); }
+
+.archive-preview { padding-top: clamp(5rem, 10vw, 10rem); }
+.archive-cards { gap: 0; border: 1px solid rgba(238, 230, 214, .2); }
+.archive-cards article, .archive-cards section { min-height: 300px; border: 0; border-right: 1px solid rgba(238, 230, 214, .2); background: rgba(238, 230, 214, .035); transition: background .22s, transform .22s; }
+.archive-cards article:last-child { border-right: 0; }
+.archive-cards article:hover { background: rgba(238, 230, 214, .09); transform: translateY(-5px); }
+.archive-cards article:nth-child(2) { background: rgba(141, 41, 53, .13); }
+.archive-cards h3, .archive-cards h2 { font-size: 2.25rem; }
+
+.newsletter-panel {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  align-items: start;
+  gap: clamp(2rem, 6vw, 5.5rem);
+  background: #101011;
+  color: var(--paper);
+  border: 1px solid rgba(238, 230, 214, .18);
+  box-shadow: none;
+}
+.newsletter-panel::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: clamp(2rem, 5vw, 4rem);
+  bottom: clamp(-4rem, -2vw, -1.5rem);
+  width: clamp(10rem, 20vw, 16rem);
+  aspect-ratio: 1;
+  opacity: .045;
+  background: url("./assets/ordo-solis-sun-seal.webp") center / contain no-repeat;
+  filter: sepia(.5) brightness(1.55);
+  pointer-events: none;
+}
+.newsletter-panel h2 { max-width: 11ch; color: #fff; font-family: var(--type-display); }
+.newsletter-panel > div:first-child { min-height: 100%; display: flex; flex-direction: column; justify-content: flex-start; }
+.newsletter-panel > div:first-child > p:not(.eyebrow) { color: rgba(255, 255, 255, .9); }
+.newsletter-panel .fine-print { color: rgba(232, 219, 206, .68); }
+.newsletter-panel .fine-print a { color: var(--brass-soft); }
+.signup-area {
+  width: 100%;
+  max-width: 440px;
+  justify-self: end;
+  padding-left: clamp(1.5rem, 4vw, 3.5rem);
+  border-left: 1px solid rgba(238, 230, 214, .18);
+}
+.signup-area .button-primary { box-shadow: 4px 4px 0 rgba(36, 26, 28, .25); }
+.mailerlite-mount { width: 100%; }
+.newsletter-fallback { display: grid; gap: .8rem; padding: clamp(1.4rem, 3vw, 2rem); border: 1px solid rgba(238, 230, 214, .2); background: #101011; }
+.newsletter-fallback input { width: 100%; min-height: 48px; padding: .75rem .85rem; border: 1px solid rgba(238, 230, 214, .38); border-radius: 0; background: #f6f1e8; color: #171719; }
+.newsletter-fallback .button { width: 100%; }
+.newsletter-fallback .fine-print { margin: 0; }
+.newsletter-panel .ml-form-embedContainer,
+.newsletter-panel .ml-form-embedContainer .ml-form-align-default { margin: 0 !important; width: 100% !important; }
+.newsletter-panel .ml-form-embedContainer .ml-form-embedWrapper {
+  width: 100% !important;
+  max-width: 440px !important;
+  background: #101011 !important;
+  border: 1px solid rgba(238, 230, 214, .2) !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.newsletter-panel .ml-form-embedContainer .ml-form-embedBody { padding: clamp(1.4rem, 3vw, 2rem) !important; }
+.newsletter-panel .ml-form-embedContainer h4,
+.newsletter-panel .ml-form-embedContainer .ml-form-embedBody h4 { color: var(--ivory) !important; font-family: var(--type-display) !important; }
+.newsletter-panel .ml-form-embedContainer p,
+.newsletter-panel .ml-form-embedContainer span { color: rgba(238, 230, 214, .78) !important; font-family: var(--type-editorial) !important; }
+.newsletter-panel .ml-form-embedContainer input[type="email"] {
+  border: 1px solid rgba(238, 230, 214, .38) !important;
+  border-radius: 0 !important;
+  background: #f6f1e8 !important;
+  color: #171719 !important;
+}
+.newsletter-panel .ml-form-embedContainer .ml-form-embedSubmit button {
+  border: 1px solid var(--signal) !important;
+  border-radius: 0 !important;
+  background: var(--signal) !important;
+  color: #fff !important;
+  font-family: var(--type-nav) !important;
+  letter-spacing: .08em !important;
+  text-transform: uppercase !important;
+}
+.newsletter-panel .ml-form-embedContainer .ml-form-embedSubmit button:hover,
+.newsletter-panel .ml-form-embedContainer .ml-form-embedSubmit button:focus-visible {
+  border-color: var(--brass-soft) !important;
+  background: #6f1d27 !important;
+  color: #fff !important;
+}
+.newsletter-panel #mlb2-29293161.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.primary {
+  border-color: var(--signal) !important;
+  background-color: var(--signal) !important;
+  color: #fff !important;
+}
+.newsletter-panel #mlb2-29293161.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.primary:hover,
+.newsletter-panel #mlb2-29293161.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedSubmit button.primary:focus-visible {
+  border-color: var(--brass-soft) !important;
+  background-color: #6f1d27 !important;
+  color: #fff !important;
+}
+
+.publication-folio {
+  min-height: 480px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.45rem;
+  color: #171719;
+  background: repeating-linear-gradient(0deg, transparent 0 24px, rgba(49, 39, 27, .06) 25px 26px), #e5dbc8;
+  border: 1px solid rgba(238, 230, 214, .8);
+  box-shadow: 15px 15px 0 rgba(93, 34, 42, .54), 0 28px 60px rgba(0, 0, 0, .4);
+}
+.novel-page { position: relative; isolation: isolate; }
+.novel-page::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  inset: 3rem -12vw auto auto;
+  width: min(52vw, 720px);
+  height: 620px;
+  opacity: .15;
+  background: url("./assets/wbq-flora-castel-dolomites-local.webp") 78% center / cover no-repeat;
+  mask-image: linear-gradient(90deg, transparent, #000 34%, #000 72%, transparent);
+  pointer-events: none;
+}
+.publication-folio p, .publication-folio small { margin: 0; font-family: var(--type-data); font-size: .65rem; letter-spacing: .13em; text-transform: uppercase; }
+.publication-folio strong { margin: auto 0 0; font-family: var(--type-display); font-size: 7rem; font-weight: 500; letter-spacing: -.075em; line-height: .78; }
+.publication-folio span { margin: .8rem 0 1.35rem; font: italic 2rem/1 var(--type-display); }
+.publication-folio small { border-top: 1px solid rgba(23, 23, 25, .45); padding-top: .8rem; }
+
+.site-footer { background: #090b0c; }
+.footer-mark { display: block; width: 2.55rem; height: 2.55rem; margin: 0 auto 1rem; object-fit: contain; opacity: .75; }
+
+.rank-quiz-page { max-width: 1120px; padding-top: clamp(4rem, 9vw, 8rem); padding-bottom: clamp(5rem, 10vw, 9rem); }
+.rank-quiz { max-width: 810px; margin: 0 auto; }
+.rank-quiz-intro { max-width: 650px; margin-bottom: 3.5rem; }
+.rank-quiz-intro h1, .rank-quiz-result h1 { max-width: 11ch; margin: .8rem 0 1.3rem; font-size: clamp(3.25rem, 7vw, 6.2rem); font-weight: 500; line-height: .9; }
+.rank-quiz-intro > p:last-child, .rank-result-copy > p { max-width: 58ch; color: #d9d0c2; font-size: 1.18rem; line-height: 1.45; }
+.quiz-progress { display: grid; gap: .8rem; margin-bottom: 2.25rem; color: var(--brass-soft); font: .67rem/1 var(--type-data); letter-spacing: .14em; text-transform: uppercase; }
+.quiz-progress-track { height: 2px; background: rgba(238, 230, 214, .2); }
+.quiz-progress-track span { display: block; height: 100%; background: var(--brass-soft); transition: width .28s ease; }
+.quiz-question { padding: clamp(1.65rem, 5vw, 3rem); border: 1px solid rgba(238, 230, 214, .24); background: linear-gradient(135deg, rgba(68, 39, 42, .22), rgba(238, 230, 214, .025)); }
+.quiz-question h2 { max-width: 22ch; margin: .55rem 0 2.1rem; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 500; line-height: 1.08; }
+.quiz-answers { display: grid; gap: .7rem; }
+.quiz-answer { width: 100%; display: grid; grid-template-columns: 2.1rem 1fr; align-items: start; gap: 1rem; padding: 1rem 1.1rem; color: var(--ivory); text-align: left; border: 1px solid rgba(238, 230, 214, .26); background: rgba(10, 12, 13, .38); font: 1.06rem/1.35 var(--type-editorial); cursor: pointer; transition: transform .18s ease, background .18s ease, border-color .18s ease; }
+.quiz-answer span { color: var(--brass-soft); font: .68rem/1.65 var(--type-data); letter-spacing: .1em; }
+.quiz-answer:hover, .quiz-answer:focus-visible { border-color: var(--brass-soft); background: rgba(141, 41, 53, .3); transform: translateX(.35rem); outline: 0; }
+.quiz-back { margin-top: 1.7rem; color: var(--ash); background: transparent; border: 0; cursor: pointer; font: .68rem/1 var(--type-data); letter-spacing: .1em; text-transform: uppercase; }
+.quiz-back:disabled { cursor: not-allowed; opacity: .4; }
+.rank-quiz-result { display: grid; grid-template-columns: minmax(0, 1fr) minmax(250px, .65fr); align-items: center; gap: clamp(2.5rem, 9vw, 7rem); }
+.rank-result-copy .fine-print { margin-top: 1.8rem; color: rgba(225, 210, 195, .65); font-family: var(--type-ui); font-size: .9rem; }
+.rank-quiz-actions { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 2rem; }
+.rank-seal-card { position: relative; margin: 0; padding: clamp(1.2rem, 3vw, 2rem); color: #171719; background: #faf9f6; box-shadow: 16px 17px 0 rgba(139, 48, 55, .66), 0 28px 56px rgba(0, 0, 0, .34); transform: rotate(2deg); }
+.rank-seal-card::before { content: "ORDO SOLIS / INITIATED RANK"; display: block; margin-bottom: 1rem; color: #433b33; font: .61rem/1 var(--type-data); letter-spacing: .13em; text-align: center; }
+.rank-seal-card img { display: block; width: 100%; aspect-ratio: 1; object-fit: contain; background: #fff; }
+.rank-seal-card figcaption { margin-top: 1rem; font: 500 clamp(2rem, 4vw, 3.4rem)/.9 var(--type-display); text-align: center; }
+.rank-seal-claimed { color: #fff; background: #d91d25; box-shadow: 16px 17px 0 rgba(238, 230, 214, .18), 0 28px 56px rgba(0, 0, 0, .34); }
+.rank-seal-claimed::before { color: #fff; }
+.rank-seal-claimed img { background: #d91d25; }
+
+@media (max-width: 700px) {
+  .hero { grid-template-columns: 1fr; padding-right: 1.25rem; padding-left: 1.25rem; padding-top: 4rem; }
+  .hero h1 { font-size: clamp(4.4rem, 21vw, 6.1rem); }
+  .hero-video { opacity: .24; }
+  .hero-dossier { width: min(84vw, 340px); min-height: 370px; justify-self: center; grid-row: 1; transform: rotate(1.5deg); }
+  .topography-label { top: 12%; }
+  .hero-year { right: -1rem; font-size: 13rem; }
+  .hero-order-mark { right: 6%; bottom: 3%; width: 5rem; }
+  .intro-rail { min-height: 0; margin-bottom: 1.7rem; }
+  .intro-rail .eyebrow { margin-bottom: .85rem; }
+  .intro-archive-image { width: min(15rem, 64vw); }
+  .reader-testimonials { padding-right: 1.25rem; padding-left: 1.25rem; }
+  .testimonials-intro { display: block; margin-bottom: 1.7rem; }
+  .testimonials-intro .eyebrow { margin-bottom: .8rem; }
+  .testimonials-intro h2 { margin-bottom: 1rem; }
+  .testimonial-grid { grid-template-columns: 1fr; }
+  .testimonial-card, .reader-testimonials-full .testimonial-card { min-height: 0; }
+  .reader-testimonials-full .testimonials-intro { padding-bottom: 1.35rem; }
+  .reader-testimonials-full .testimonial-card { padding: 1.35rem; }
+  .reader-testimonials-home .testimonial-card { min-height: 210px; }
+  .novel-page::after { inset: 3rem -24vw auto auto; width: 110vw; opacity: .11; }
+  .section-grid h2 { max-width: 100%; }
+  .archive-cards { display: block; }
+  .archive-cards article, .archive-cards section { min-height: 0; border-right: 0; border-bottom: 1px solid rgba(238, 230, 214, .2); }
+  .archive-cards article:last-child { border-bottom: 0; }
+  .newsletter-panel { box-shadow: none; }
+  .signup-area { max-width: none; padding-left: 0; border-left: 0; border-top: 1px solid rgba(238, 230, 214, .18); padding-top: 1.5rem; }
+  .author-profile { display: block; }
+  .rank-quiz-page { padding-right: 1.25rem; padding-left: 1.25rem; }
+  .rank-quiz-result { grid-template-columns: 1fr; }
+  .rank-seal-card { width: min(100%, 360px); justify-self: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-smoke span { animation: none; }
+}

@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{N,y 'v√Æ∂õ≠export const siteUrl = process.env.REACT_APP_SITE_URL || 'https://weburnedquietly.com';
+export const siteUrl = process.env.REACT_APP_SITE_URL || 'https://weburnedquietly.com';
 
 export const book = {
   phase: 'teaser',

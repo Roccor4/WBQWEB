@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{N,y 'v√Æ∂õ≠import { useEffect } from 'react';
+import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import NewsletterForm from '../components/NewsletterForm';
 import { ReleaseActions, usePageMeta } from '../components/SiteChrome';

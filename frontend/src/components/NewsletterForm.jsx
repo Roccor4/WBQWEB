@@ -1,4 +1,4 @@
-≠rá^—f•ñÿ¶{N,y 'v√Æ∂õ≠import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 const mailerLiteScript = 'https://assets.mailerlite.com/js/universal.js?v=2';
 const chapterSignupUrl = 'https://preview.mailerlite.io/forms/1707528/161992586618209765/share';
