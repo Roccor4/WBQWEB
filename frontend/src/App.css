@@ -223,6 +223,22 @@ h1 { font-weight: 500; letter-spacing: -.045em; }
   opacity: .34;
   filter: sepia(.42) saturate(.78) contrast(1.08) brightness(.58);
 }
+.hero-smoke { position: absolute; z-index: -2; inset: 0; overflow: hidden; pointer-events: none; }
+.hero-smoke span {
+  position: absolute;
+  width: clamp(22rem, 40vw, 46rem);
+  aspect-ratio: 1.55;
+  border-radius: 50%;
+  background: radial-gradient(ellipse at center, rgba(220, 216, 203, .13) 0%, rgba(198, 191, 175, .055) 34%, transparent 70%);
+  filter: blur(26px);
+  mix-blend-mode: screen;
+  opacity: .72;
+  animation: smoke-drift 20s ease-in-out infinite alternate;
+}
+.hero-smoke span:nth-child(1) { top: 8%; left: -18%; }
+.hero-smoke span:nth-child(2) { right: -16%; bottom: 5%; opacity: .46; animation-duration: 27s; animation-delay: -8s; }
+.hero-smoke span:nth-child(3) { top: 42%; left: 34%; width: clamp(15rem, 28vw, 32rem); opacity: .3; animation-duration: 23s; animation-delay: -15s; }
+@keyframes smoke-drift { from { transform: translate3d(-3%, -2%, 0) scale(.94); } to { transform: translate3d(9%, 5%, 0) scale(1.12); } }
 .hero::before { top: 17%; background: linear-gradient(90deg, transparent, rgba(238, 230, 214, .3), transparent); }
 .hero::after {
   content: "";
@@ -410,4 +426,8 @@ h1 { font-weight: 500; letter-spacing: -.045em; }
   .rank-quiz-page { padding-right: 1.25rem; padding-left: 1.25rem; }
   .rank-quiz-result { grid-template-columns: 1fr; }
   .rank-seal-card { width: min(100%, 360px); justify-self: center; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-smoke span { animation: none; }
 }
