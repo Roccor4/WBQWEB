@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+≠rá^—f•ñÿ¶{N,y 'v√Æ∂õ≠import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import NewsletterForm from '../components/NewsletterForm';
 import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
@@ -49,8 +49,8 @@ export default function HomePage() {
     </section>
 
     <section className="reading-invitation" aria-labelledby="reading-title">
-      <div><p className="eyebrow">A private reading</p><h2 id="reading-title">Sign up to read Chapter One.</h2><p>Enter the winter of 1979 with Luca Altomare, as the road leaves Milan and the mountains close around him.</p></div>
-      <Link className="button button-primary" to="/#pocket-guide">Receive Chapter One</Link>
+      <div><p className="eyebrow">A private reading</p><h2 id="reading-title">The road to Valdazano begins here.</h2><p>Enter the winter of 1979 with Luca Altomare, as the road leaves Milan and the mountains close around him.</p></div>
+      <Link className="button button-primary" to="/#pocket-guide">Step into Valdazano</Link>
     </section>
 
     <NewsletterForm />
