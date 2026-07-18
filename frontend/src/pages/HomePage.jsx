@@ -21,7 +21,6 @@ export default function HomePage() {
       </div>
       <div className="hero-topography" aria-hidden="true">
         <span className="topography-label">Val di Non / 1979</span>
-        <span className="hero-year">1979</span>
         <img className="hero-order-mark" src={orderSunMark} alt="" />
       </div>
       <div className="hero-copy">
