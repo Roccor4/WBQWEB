@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+≠rá^—f•ñÿ¶{Nly 'v√Æ∂õ≠import { useEffect } from 'react';
 
 const mailerLiteScript = 'https://assets.mailerlite.com/js/universal.js?v=2';
 
@@ -22,7 +22,7 @@ export default function NewsletterForm() {
       <p className="fine-print">You will also receive occasional correspondence and release news from Vladimir Fischer. The chapter is delivered privately; unsubscribe at any time.</p>
     </div>
     <div className="signup-area">
-      <div className="ml-embedded" data-form="0U4www" aria-live="polite" />
+      <div className="ml-embedded" data-form="Tu5Stx" aria-live="polite" />
       <p className="fine-print">If the form does not appear, <a href="https://preview.mailerlite.io/forms/1707528/161992586618209765/share" target="_blank" rel="noreferrer">open the chapter sign-up page</a>.</p>
     </div>
   </section>;
