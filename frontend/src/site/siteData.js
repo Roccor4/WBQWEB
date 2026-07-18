@@ -1,4 +1,4 @@
-export const siteUrl = process.env.REACT_APP_SITE_URL || 'https://weburnedquietly.com';
+­r‡^Ñf¥–Ø¦{N,yÊ'vÃ®¶›­export const siteUrl = process.env.REACT_APP_SITE_URL || 'https://weburnedquietly.com';
 
 export const book = {
   phase: 'teaser',
@@ -22,6 +22,13 @@ export const book = {
     'fascist history and authoritarian ideology',
   ],
 };
+
+export const readerTestimonials = [
+  'â€œThe characters are complex, human, and multi-faceted.â€',
+  'â€œLucaâ€™s voice feels consistent and lived-in, and his emotional journey carries the weight of the story from beginning to end.â€',
+  'â€œIt is a world that feels ancient and predatory before anyone even does anything threatening. Thatâ€™s hard to pull off.â€',
+  'â€œThe bones are solid. The voice is distinctive. The tension is real.â€',
+];
 
 export const releaseActions = {
   teaser: {
