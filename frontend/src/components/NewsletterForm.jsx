@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 import { useEffect } from 'react';
 
 const mailerLiteScript = 'https://assets.mailerlite.com/js/universal.js?v=2';
@@ -30,4 +27,3 @@ export default function NewsletterForm() {
     </div>
   </section>;
 }
-

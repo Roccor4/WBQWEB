@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 export const siteUrl = process.env.REACT_APP_SITE_URL || 'https://weburnedquietly.com';
 
 export const book = {
@@ -46,4 +43,3 @@ export const navItems = [
   { label: 'Quiz', to: '/the-order' },
   { label: 'Vladimir Fischer', to: '/#author' },
 ];
-

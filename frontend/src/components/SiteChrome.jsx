@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.5 seconds
-Output:
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -71,7 +68,6 @@ export function SiteFooter() {
     <div className="footer-links">
       <Link to="/novel">The Novel</Link><Link to="/the-order">Quiz</Link><Link to="/content-notes">Content notes</Link><Link to="/privacy">Privacy</Link>
     </div>
-    <p className="footer-small">Â© {new Date().getFullYear()} Vladimir Fischer. All rights reserved.</p>
+    <p className="footer-small">© {new Date().getFullYear()} Vladimir Fischer. All rights reserved.</p>
   </footer>;
 }
-

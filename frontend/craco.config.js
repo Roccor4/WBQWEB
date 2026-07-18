@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.5 seconds
-Output:
 // Load configuration from environment or config file
 const path = require('path');
 

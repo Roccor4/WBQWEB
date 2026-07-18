@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
 import { book } from '../site/siteData';
 
@@ -8,4 +5,3 @@ export default function NovelPage() {
   usePageMeta('The Novel | We Burned, Quietly', 'Discover We Burned, Quietly, a gothic literary novel by Vladimir Fischer.');
   return <article className="page-shell novel-page"><div className="page-intro"><p className="eyebrow">The novel</p><h1>{book.title}</h1><p className="byline">A novel by {book.author}</p><p className="release-line">{book.releaseDisplay}</p></div><div className="novel-layout">{book.coverImage ? <img className="detail-cover" src={book.coverImage} alt="Cover of We Burned, Quietly by Vladimir Fischer" /> : <div className="detail-cover publication-folio" aria-label="Publication artwork will be announced separately"><strong>1979</strong><span>Val di Non</span><small>Publication artwork<br />to be announced</small></div>}<div className="prose"><h2>In the shadow of the Dolomites</h2><p>{book.premise}</p><p>Luca Altomare is sent to the Ordo Solis, a mountain academy that promises protection and excellence at the cost of the self. There, hierarchy becomes theology, surveillance becomes care, and the smallest private act can be made into a confession.</p><p>This is a spoiler-safe introduction. Format, ISBN, and retailer information will appear here only when verified.</p><ReleaseActions /></div></div><section id="editions" className="quiet-panel"><p className="eyebrow">Publication</p><h2>Edition details will be announced here.</h2><p>There are no retailer links or format claims on this page until they are confirmed.</p></section></article>;
 }
-

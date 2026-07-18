@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { usePageMeta } from '../components/SiteChrome';
@@ -71,4 +68,3 @@ export default function RankQuizPage() {
     </section>
   </article>;
 }
-

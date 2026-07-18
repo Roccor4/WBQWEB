@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import NewsletterForm from '../components/NewsletterForm';
@@ -37,14 +34,14 @@ export default function HomePage() {
         <p className="dossier-place">Northern Italy<br />Winter, 1979</p>
         <div className="dossier-index" aria-hidden="true"><span>01</span><span>1979</span><span>VDF</span></div>
         <p className="dossier-note">The cover remains under seal.</p>
-        <Link className="dossier-link" to="/#pocket-guide">Sign up for the reveal notice <span aria-hidden="true">â†’</span></Link>
+        <Link className="dossier-link" to="/#pocket-guide">Sign up for the reveal notice <span aria-hidden="true">→</span></Link>
       </div>
     </section>
 
     <section className="intro-section section-grid" aria-labelledby="novel-intro-title">
       <p className="eyebrow">The novel <img className="intro-seal" src={orderSunMark} alt="" aria-hidden="true" /></p>
       <div><h2 id="novel-intro-title">A school that remakes its boys in the image of the Sun.</h2></div>
-      <div className="prose"><p>Luca Altomare arrives at the Ordo Solis carrying a family name already marked by silence. In the compoundâ€™s cold corridors, every gesture is watched, every attachment made dangerous, and the past becomes another instrument of control.</p><p>Set against the mountains of northern Italy, <em>We Burned, Quietly</em> is a literary novel about memory, indoctrination, and the forms of tenderness that refuse to become evidence.</p><Link className="text-link" to="/novel">Discover the novel <span aria-hidden="true">â†’</span></Link></div>
+      <div className="prose"><p>Luca Altomare arrives at the Ordo Solis carrying a family name already marked by silence. In the compound’s cold corridors, every gesture is watched, every attachment made dangerous, and the past becomes another instrument of control.</p><p>Set against the mountains of northern Italy, <em>We Burned, Quietly</em> is a literary novel about memory, indoctrination, and the forms of tenderness that refuse to become evidence.</p><Link className="text-link" to="/novel">Discover the novel <span aria-hidden="true">→</span></Link></div>
     </section>
 
     <section className="reading-invitation" aria-labelledby="reading-title">
@@ -54,7 +51,6 @@ export default function HomePage() {
 
     <NewsletterForm />
 
-    <section id="author" className="author-section author-profile" aria-labelledby="author-title"><div><p className="eyebrow">The author</p><h2 id="author-title">Vladimir Fischer</h2></div><div className="prose"><p>Vladimir Fischer writes literary fiction shaped by history, silence, faith, and the emotional afterlife of institutions. <em>We Burned, Quietly</em> is his gothic literary novel of late-1970s northern Italy.</p><a className="text-link" href="https://vladimirfischer.wordpress.com/" target="_blank" rel="noreferrer">Visit the author website <span aria-hidden="true">â†—</span></a></div></section>
+    <section id="author" className="author-section author-profile" aria-labelledby="author-title"><div><p className="eyebrow">The author</p><h2 id="author-title">Vladimir Fischer</h2></div><div className="prose"><p>Vladimir Fischer writes literary fiction shaped by history, silence, faith, and the emotional afterlife of institutions. <em>We Burned, Quietly</em> is his gothic literary novel of late-1970s northern Italy.</p><a className="text-link" href="https://vladimirfischer.wordpress.com/" target="_blank" rel="noreferrer">Visit the author website <span aria-hidden="true">↗</span></a></div></section>
   </>;
 }
-

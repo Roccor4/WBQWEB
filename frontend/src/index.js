@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -12,4 +9,3 @@ root.render(
     <App />
   </React.StrictMode>
 );
-

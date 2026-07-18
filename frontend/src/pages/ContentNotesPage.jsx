@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 import { usePageMeta } from '../components/SiteChrome';
 import { book } from '../site/siteData';
 
@@ -19,4 +16,3 @@ export default function ContentNotesPage() {
     <p className="reader-note-closing">Some of these subjects are central to the novel and recur throughout the story. Readers seeking more detailed, spoiler-aware information are welcome to contact the author before reading.</p>
   </article>;
 }
-

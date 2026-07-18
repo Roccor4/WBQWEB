@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 const score = (lamb, vessel, instrument, ascendant, claimed) => ({ lamb, vessel, instrument, ascendant, claimed });
 
 export const rankDefinitions = {
@@ -28,7 +25,7 @@ export const rankDefinitions = {
 
 const prompts = [
   ['You are ill, but the day\'s duties demand your presence. A superior looks you over but says nothing.', ['Push through the pain without hesitation.', 'Complete the work but rest when unseen.', 'Ask for permission to step aside.', 'Withdraw without asking.']],
-  ['Your Vessel orders you to kneel in the snow until sunrise for â€œpurification.â€', ['Obey without question until dismissed.', 'Obey, but quietly count the minutes until relief.', 'Ask for mercy once, then resume kneeling.', 'Stand and leave before frostbite sets in.']],
+  ['Your Vessel orders you to kneel in the snow until sunrise for “purification.”', ['Obey without question until dismissed.', 'Obey, but quietly count the minutes until relief.', 'Ask for mercy once, then resume kneeling.', 'Stand and leave before frostbite sets in.']],
   ['A fellow student struggles to keep up with the day\'s tasks.', ['Report his weakness to your superior.', 'Take over some of his work without telling anyone.', 'Give him advice quietly, but nothing more.', 'Ignore him entirely; it is not your burden.']],
   ['An Instrument orders you to punish another student.', ['Obey with precision, neither joy nor hesitation.', 'Obey, but hold back your full strength.', 'Refuse openly, accepting the consequences.', 'Pretend to obey but let the blows fall harmlessly.']],
   ['You overhear a rumour about a superior that could cause unrest.', ['Report it immediately to the nearest higher rank.', 'Keep it to yourself; knowledge is power.', 'Spread it quietly to test reactions.', 'Confront the superior to see if it is true.']],
@@ -65,4 +62,3 @@ export function calculateRank(answers) {
   });
   return Object.keys(rankDefinitions).reduce((current, rank) => (totals[rank] > totals[current] ? rank : current), 'lamb');
 }
-

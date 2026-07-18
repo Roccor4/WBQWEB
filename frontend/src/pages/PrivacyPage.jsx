@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 0.6 seconds
-Output:
 import { usePageMeta } from '../components/SiteChrome';
 
 export default function PrivacyPage() {
@@ -30,4 +27,3 @@ export default function PrivacyPage() {
     </div>
   </article>;
 }
-
