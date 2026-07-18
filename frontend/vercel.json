@@ -1,0 +1,16 @@
+Exit code: 0
+Wall time: 0.6 seconds
+Output:
+{
+  "headers": [
+    {
+      "source": "/reader-copy/(.*)",
+      "headers": [
+        { "key": "X-Robots-Tag", "value": "noindex, nofollow, noarchive" },
+        { "key": "Content-Disposition", "value": "attachment" },
+        { "key": "Cache-Control", "value": "private, no-store, max-age=0" }
+      ]
+    }
+  ]
+}
+

@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 0.6 seconds
+Output:
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -10,14 +13,3 @@ root.render(
   </React.StrictMode>
 );
 
-// Initialize MailerLite after component mount
-window.addEventListener('load', () => {
-  // Give MailerLite script time to load
-  setTimeout(() => {
-    if (window.ml) {
-      console.log('MailerLite initialized successfully');
-    } else {
-      console.log('MailerLite script loading...');
-    }
-  }, 2000);
-});

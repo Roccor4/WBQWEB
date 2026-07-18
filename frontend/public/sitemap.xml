@@ -1,0 +1,14 @@
+Exit code: 0
+Wall time: 0.5 seconds
+Output:
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://weburnedquietly.com/</loc></url>
+  <url><loc>https://weburnedquietly.com/novel</loc></url>
+  <url><loc>https://weburnedquietly.com/read/chapter-one</loc></url>
+  <url><loc>https://weburnedquietly.com/archive</loc></url>
+  <url><loc>https://weburnedquietly.com/content-notes</loc></url>
+  <url><loc>https://weburnedquietly.com/press</loc></url>
+  <url><loc>https://weburnedquietly.com/privacy</loc></url>
+</urlset>
+

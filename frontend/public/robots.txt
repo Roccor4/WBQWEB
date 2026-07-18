@@ -1,0 +1,9 @@
+Exit code: 0
+Wall time: 0.6 seconds
+Output:
+User-agent: *
+Disallow: /reader-copy/
+Allow: /
+
+Sitemap: https://weburnedquietly.com/sitemap.xml
+
