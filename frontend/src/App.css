@@ -1,6 +1,23 @@
+
 @font-face {
   font-family: "Sacramento";
   src: url("./assets/fonts/Sacramento-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Moonlit Flow";
+  src: url("./assets/fonts/MoonlitFlow-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Evil Vampire";
+  src: url("./assets/fonts/EvilVampire-Regular.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -200,6 +217,14 @@ dl { margin: 0; } dl div { padding: .65rem 0; border-bottom: 1px solid var(--lin
 
 .site-header { background: rgba(13, 16, 17, .84); border-bottom-color: rgba(238, 230, 214, .14); }
 .wordmark { font-family: var(--type-display); font-weight: 600; letter-spacing: .025em; }
+.wordmark > span:last-child {
+  color: var(--ivory);
+  font-family: "Evil Vampire", var(--type-display);
+  font-size: 1.16em;
+  font-weight: 400;
+  letter-spacing: .055em;
+  line-height: 1;
+}
 .wordmark-mark { display: inline-grid; width: 1.65rem; height: 1.65rem; place-items: center; overflow: hidden; }
 .wordmark-mark img {
   width: 100%;
@@ -252,279 +277,7 @@ h1 { font-weight: 500; letter-spacing: -.045em; }
   animation: smoke-drift 20s ease-in-out infinite alternate;
 }
 .hero-smoke span:nth-child(1) { top: 8%; left: -18%; }
-.hero-smoke span:nth-child(2) { right: -16%; bottom: 5%; opacity: .46; animation-duration: 27s; animation-delay: -8s; }
-.hero-smoke span:nth-child(3) { top: 42%; left: 34%; width: clamp(15rem, 28vw, 32rem); opacity: .3; animation-duration: 23s; animation-delay: -15s; }
-@keyframes smoke-drift { from { transform: translate3d(-3%, -2%, 0) scale(.94); } to { transform: translate3d(9%, 5%, 0) scale(1.12); } }
-.hero::before { top: 17%; background: linear-gradient(90deg, transparent, rgba(238, 230, 214, .3), transparent); }
-.hero::after {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  inset: 4% -18% -13% 35%;
-  opacity: .43;
-  background-image:
-    linear-gradient(90deg, var(--night) 0%, rgba(13, 16, 17, .78) 28%, rgba(13, 16, 17, .08) 70%),
-    repeating-radial-gradient(ellipse 90% 72% at 90% 5%, transparent 0 24px, rgba(212, 186, 138, .18) 25px 26px, transparent 27px 45px),
-    url("./assets/wbq-flora-castel-dolomites-local.webp");
-  background-position: center, center, center right;
-  background-repeat: no-repeat;
-  background-size: cover, auto, cover;
-  mask-image: linear-gradient(90deg, transparent, #000 25%, #000 82%, transparent);
-}
-.hero-topography { position: absolute; z-index: -1; inset: 0; pointer-events: none; }
-.topography-label { position: absolute; top: 21%; right: 5%; color: rgba(238, 230, 214, .36); font: .65rem/1 var(--type-data); letter-spacing: .16em; text-transform: uppercase; writing-mode: vertical-rl; }
-.hero-year { position: absolute; right: -1.2rem; bottom: 1rem; color: rgba(238, 230, 214, .055); font-family: var(--type-display); font-size: clamp(11rem, 23vw, 22rem); font-style: italic; font-weight: 600; letter-spacing: -.11em; line-height: .65; }
-.hero-order-mark { position: absolute; right: 37%; bottom: 9%; width: clamp(5rem, 9vw, 8.25rem); opacity: .16; filter: sepia(.32) contrast(.9) brightness(1.3); mix-blend-mode: screen; }
-.hero-newsprint {
-  position: absolute;
-  z-index: 0;
-  inset: 0;
-  overflow: hidden;
-  color: rgba(238, 230, 214, .07);
-  pointer-events: none;
-  mix-blend-mode: screen;
-  mask-image: linear-gradient(90deg, transparent 0, #000 8%, #000 92%, transparent 100%);
-}
-.hero-newsprint-fragment {
-  position: absolute;
-  display: grid;
-  gap: .3rem;
-  width: min(42rem, 52vw);
-  font-family: Arial, Helvetica, sans-serif;
-  text-transform: uppercase;
-  filter: blur(.12px);
-}
-.hero-newsprint-fragment::after {
-  content: "";
-  height: 1.6rem;
-  border-top: 1px solid currentColor;
-  border-bottom: 1px solid currentColor;
-  background: repeating-linear-gradient(90deg, currentColor 0 1px, transparent 1px 21%);
-  opacity: .38;
-}
-.hero-newsprint-fragment small {
-  font: .46rem/1 var(--type-data);
-  letter-spacing: .13em;
-}
-.hero-newsprint-fragment strong {
-  max-width: 24ch;
-  font-size: clamp(1.3rem, 2.25vw, 2.25rem);
-  font-weight: 850;
-  letter-spacing: -.055em;
-  line-height: .84;
-}
-.hero-newsprint-youth { top: 2.5%; left: 5%; transform: rotate(-1.1deg); }
-.hero-newsprint-choir { top: 31%; left: 48%; color: rgba(226, 194, 120, .065); transform: rotate(.8deg); }
-.hero-newsprint-solidarity { right: 12%; bottom: 2%; width: min(35rem, 46vw); transform: rotate(-.65deg); }
-.hero-copy { padding-bottom: 1rem; }
-.hero-copy > .eyebrow { margin-left: 0; padding-left: 0; }
-.hero h1.hero-manifesto {
-  max-width: 780px;
-  color: var(--ivory);
-  font-size: clamp(3.2rem, 4.7vw, 4.45rem);
-  font-weight: 650;
-  letter-spacing: -.048em;
-  line-height: .9;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, .42), 0 18px 42px rgba(0, 0, 0, .34);
-  text-transform: uppercase;
-}
-.hero-manifesto span { display: block; white-space: nowrap; }
-.hero-manifesto span + span {
-  max-width: 10.5em;
-  margin-top: .08em;
-  color: var(--wbq-cover-petal);
-  font-family: "Sacramento", "Segoe Script", cursive;
-  font-size: 1.22em;
-  font-weight: 400;
-  letter-spacing: .005em;
-  line-height: .78;
-  text-shadow: 0 1px 0 rgba(245, 218, 210, .12), 0 10px 28px rgba(82, 18, 26, .26);
-  text-transform: none;
-}
-.byline { margin: 1.15rem 0 2.2rem; color: var(--ash); font-size: 1.36rem; }
-.hero-premise { max-width: 610px; color: #d8d1c5; font-size: clamp(1.32rem, 2.1vw, 1.78rem); line-height: 1.22; }
-.release-line { color: var(--brass-soft); }
-.inscription { border-left: 1px solid rgba(212, 186, 138, .48); padding-left: 1rem; }
-.button { border-radius: 0; min-height: 48px; }
-.button-primary { background: var(--signal); border-color: #b95662; box-shadow: 5px 5px 0 rgba(238, 230, 214, .12); }
-.button-primary:hover { background: #a63846; box-shadow: 8px 8px 0 rgba(238, 230, 214, .16); }
-.button-secondary { border-color: rgba(212, 186, 138, .66); }
-.button-secondary:hover { background: rgba(212, 186, 138, .14); }
-
-.hero-dossier {
-  position: relative;
-  z-index: 1;
-  width: min(100%, 330px);
-  min-height: 510px;
-  justify-self: end;
-  display: flex;
-  flex-direction: column;
-  padding: 1.5rem;
-  color: #171719;
-  background:
-    linear-gradient(100deg, rgba(72, 56, 34, .07), transparent 21%),
-    repeating-linear-gradient(0deg, transparent 0 24px, rgba(49, 39, 27, .06) 25px 26px),
-    url("./assets/ordo-solis-sun-seal.webp") right 1.35rem top 4.2rem / 68px no-repeat,
-    #e5dbc8;
-  border: 1px solid rgba(238, 230, 214, .8);
-  box-shadow: 17px 18px 0 rgba(93, 34, 42, .58), 0 28px 70px rgba(0, 0, 0, .48);
-  transform: rotate(2.1deg);
-}
-.dossier-rule { height: 6px; margin-bottom: 1rem; background: var(--signal); }
-.dossier-kicker, .dossier-note, .dossier-index { font: .64rem/1.45 var(--type-data); letter-spacing: .12em; text-transform: uppercase; }
-.dossier-kicker { max-width: 21rem; margin-bottom: 0; line-height: 1.55; }
-.dossier-title {
-  max-width: 10ch;
-  margin: 2.2rem auto .8rem;
-  color: #211e1e;
-  font: 800 clamp(1.9rem, 2.35vw, 2.25rem)/.9 var(--type-display);
-  letter-spacing: -.025em;
-  text-align: center;
-  text-wrap: balance;
-}
-.dossier-place {
-  width: 100%;
-  max-width: 15ch;
-  margin: 0 auto 1.5rem;
-  font-family: var(--type-display);
-  font-size: clamp(1.32rem, 1.75vw, 1.68rem);
-  font-weight: 650;
-  letter-spacing: .055em;
-  line-height: .98;
-  text-align: center;
-  text-transform: uppercase;
-}
-.dossier-index { display: flex; justify-content: space-between; padding: .65rem 0; border-top: 1px solid rgba(23, 23, 25, .45); border-bottom: 1px solid rgba(23, 23, 25, .45); }
-.dossier-note { margin: 1.2rem 0 0; max-width: 17rem; color: #4a4340; }
-.dossier-link { display: inline-flex; align-items: center; width: fit-content; margin: 1rem auto 0; padding: .7rem .8rem; border: 1px solid #7a2530; background: var(--signal); color: #fff; font: 700 .62rem/1.35 var(--type-nav); letter-spacing: .1em; text-decoration: none; text-transform: uppercase; box-shadow: 3px 3px 0 rgba(23, 23, 25, .18); }
-.dossier-link:hover, .dossier-link:focus-visible { background: #6f1d27; color: #fff; }
-
-.intro-section, .author-section { border-top-color: rgba(238, 230, 214, .18); }
-.intro-section { position: relative; }
-.intro-section::before { content: "01"; position: absolute; top: clamp(4rem, 8vw, 8rem); left: max(2rem, calc((100% - 1240px)/2)); color: rgba(212, 186, 138, .35); font: .68rem/1 var(--type-data); letter-spacing: .16em; }
-.section-grid {
-  grid-template-columns: .42fr minmax(15rem, 1.06fr) minmax(18rem, 1fr);
-  align-items: start;
-  column-gap: clamp(2rem, 4vw, 4.5rem);
-}
-.section-grid h2 {
-  max-width: 10.75ch;
-  margin: -.08em 0 0;
-  font-size: clamp(2.45rem, 4.15vw, 4.55rem);
-  line-height: .94;
-  letter-spacing: -.042em;
-  text-wrap: balance;
-}
-.section-grid .prose { padding-top: .15rem; }
-.intro-rail { position: relative; min-height: 17rem; isolation: isolate; transform: translateX(-2.25rem); }
-.intro-rail .eyebrow { position: relative; z-index: 3; margin-bottom: 1.6rem; }
-.intro-score-fragment {
-  position: absolute;
-  z-index: 0;
-  top: 4.1rem;
-  left: 2.65rem;
-  width: min(108%, 11.8rem);
-  aspect-ratio: 4 / 5;
-  overflow: hidden;
-  background: #b9aa91;
-  border: 1px solid rgba(212, 186, 138, .28);
-  box-shadow: 10px 11px 0 rgba(63, 74, 63, .22), 0 18px 30px rgba(0, 0, 0, .22);
-  clip-path: polygon(1% 2%, 98% 0, 100% 96%, 4% 100%);
-  opacity: .68;
-  transform: rotate(4.2deg);
-  pointer-events: none;
-}
-.intro-score-fragment::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(145deg, rgba(52, 58, 52, .26), transparent 42%, rgba(20, 22, 20, .38)), radial-gradient(circle at 22% 18%, rgba(232, 219, 206, .18), transparent 38%);
-  mix-blend-mode: multiply;
-}
-.intro-score-fragment img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 50% 50%;
-  filter: grayscale(1) sepia(.28) saturate(.45) contrast(1.12) brightness(.7);
-  transform: scale(1.58);
-}
-.intro-archive-image {
-  position: relative;
-  z-index: 2;
-  width: min(114%, 12.5rem);
-  aspect-ratio: 4 / 5;
-  margin: 0;
-  overflow: hidden;
-  background: #0b0d0e;
-  border: 1px solid rgba(238, 230, 214, .24);
-  box-shadow: 8px 8px 0 rgba(63, 74, 63, .3);
-}
-.intro-archive-image::before {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  inset: 0;
-  background: linear-gradient(180deg, rgba(10, 13, 14, .24), rgba(10, 13, 14, .8)), linear-gradient(90deg, rgba(63, 74, 63, .18), transparent 58%);
-  pointer-events: none;
-}
-.intro-archive-image::after {
-  content: "";
-  position: absolute;
-  z-index: 1;
-  inset: 14% 9% auto auto;
-  width: 3rem;
-  aspect-ratio: 1;
-  opacity: .22;
-  background: url("./assets/ordo-solis-sun-seal.webp") center / contain no-repeat;
-  filter: sepia(.35) brightness(1.4);
-  pointer-events: none;
-}
-.intro-archive-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: 57% 56%;
-  filter: grayscale(1) sepia(.16) saturate(.45) contrast(1.12) brightness(.64);
-  transform: scale(1.06);
-}
-.intro-archive-image figcaption {
-  position: absolute;
-  z-index: 2;
-  right: .65rem;
-  bottom: .6rem;
-  left: .65rem;
-  color: rgba(238, 230, 214, .78);
-  font: .56rem/1.3 var(--type-data);
-  letter-spacing: .12em;
-  text-transform: uppercase;
-}
-.prose { color: #ddd5c8; }
-
-.reader-testimonials { max-width: 1240px; margin: 0 auto; padding: clamp(4rem, 7vw, 7rem) 2rem; border-top: 1px solid rgba(238, 230, 214, .18); }
-.reader-testimonials-home { padding-bottom: clamp(4.5rem, 8vw, 8rem); }
-.reader-testimonials-home .testimonials-intro { display: block; margin-bottom: 1.6rem; }
-.reader-testimonials-home .testimonials-intro h2 { max-width: 24ch; font-size: clamp(2.25rem, 3.15vw, 3.25rem); }
-.testimonials-intro { display: grid; grid-template-columns: .42fr 1.12fr 1fr; column-gap: 3rem; align-items: end; margin-bottom: 2.2rem; }
-.testimonials-intro .eyebrow { margin: 0 0 .55rem; }
-.testimonials-intro h2 { max-width: 16ch; margin: 0; font-size: clamp(2.25rem, 3.2vw, 3.25rem); line-height: 1; }
-.testimonials-intro > p:not(.eyebrow) { max-width: 28ch; margin: 0 0 .4rem; color: #d8d1c5; font-family: var(--serif); font-size: 1.24rem; }
-.testimonial-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1px; border: 1px solid rgba(238, 230, 214, .22); background: rgba(238, 230, 214, .22); }
-.testimonial-card { position: relative; min-height: 192px; margin: 0; padding: clamp(1.35rem, 2.4vw, 1.85rem); display: flex; flex-direction: column; justify-content: space-between; background: linear-gradient(145deg, rgba(238, 230, 214, .05), rgba(238, 230, 214, .012)); }
-.testimonial-card::before { content: "“"; position: absolute; top: .35rem; right: .85rem; color: rgba(212, 186, 138, .14); font: 5rem/.8 var(--type-display); }
-.testimonial-card blockquote {
-  position: relative;
-  z-index: 1;
-  max-width: 33ch;
-  margin: 0;
-  color: var(--ivory);
-  font: italic 700 clamp(1.3rem, 1.55vw, 1.58rem)/1.18 Arial, Helvetica, sans-serif;
-  letter-spacing: .018em;
-  text-wrap: pretty;
-}
-.testimonial-card figcaption { margin-top: 1.5rem; display: inline-flex; align-items: center; gap: .55rem; color: var(--brass-soft); font: .61rem/1 var(--type-data); letter-spacing: .14em; text-transform: uppercase; }
-.reader-country { display: inline-flex; align-items: center; gap: .38rem; padding-left: .55rem; border-left: 1px solid rgba(238, 230, 214, .28); color: rgba(245, 238, 226, .9); letter-spacing: .1em; white-space: nowrap; }
-.reader-flag { position: relative; width: 1.12rem; height: .7rem; flex: 0 0 auto; overflow: hidden; box-shadow: 0 0 0 1px rgba(238, 230, 214, .28); }
+.hero-smoke span:nth-child(2) { right: -16%; bottom: 5%; opa…3063 tokens truncated…der-flag { position: relative; width: 1.12rem; height: .7rem; flex: 0 0 auto; overflow: hidden; box-shadow: 0 0 0 1px rgba(238, 230, 214, .28); }
 .reader-flag-uk {
   background:
     linear-gradient(34deg, transparent 42%, #fff 42% 47%, #c8102e 47% 53%, #fff 53% 58%, transparent 58%),
