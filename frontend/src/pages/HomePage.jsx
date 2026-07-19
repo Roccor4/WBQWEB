@@ -1,11 +1,13 @@
 import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import NewsletterForm from '../components/NewsletterForm';
+import ReaderAttribution from '../components/ReaderAttribution';
 import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
 import { book, readerTestimonials } from '../site/siteData';
 import orderSunMark from '../assets/ordo-solis-sun-seal.webp';
 import heroPoster from '../assets/val-di-non-clouds-poster.jpg';
 import valdazanoTower from '../assets/valdazano-tower-archive.jpg';
+import musicScoreArchive from '../assets/music-score-archive.jpg';
 
 const chapterSignupUrl = 'https://preview.mailerlite.io/forms/1707528/161992586618209765/share';
 
@@ -26,9 +28,26 @@ export default function HomePage() {
         <span className="topography-label">Val di Non / 1979</span>
         <img className="hero-order-mark" src={orderSunMark} alt="" />
       </div>
+      <div className="hero-newsprint" aria-hidden="true">
+        <span className="hero-newsprint-fragment hero-newsprint-youth">
+          <small>vita trentina · 16 marzo 1980</small>
+          <strong>La disoccupazione giovanile interpella la Chiesa</strong>
+        </span>
+        <span className="hero-newsprint-fragment hero-newsprint-choir">
+          <small>vita trentina · 21 giugno 1981</small>
+          <strong>Un coro per la vita</strong>
+        </span>
+        <span className="hero-newsprint-fragment hero-newsprint-solidarity">
+          <small>vita trentina · 5 settembre 1982</small>
+          <strong>La tromba di Solidarnosc</strong>
+        </span>
+      </div>
       <div className="hero-copy">
         <p className="eyebrow">{book.eyebrow}</p>
-        <h1 id="hero-title">{book.title}</h1>
+        <h1 id="hero-title" className="hero-manifesto">
+          <span>Every boy had a rank.</span>
+          <span>Every rank had a price.</span>
+        </h1>
         <p className="byline">A debut novel by {book.author}</p>
         <p className="hero-premise">{book.premise}</p>
         <p className="release-line">{book.releaseDisplay}</p>
@@ -38,6 +57,7 @@ export default function HomePage() {
       <div className="hero-dossier" aria-label="Cover reveal information">
         <div className="dossier-rule" aria-hidden="true" />
         <p className="dossier-kicker">The official artwork will be revealed before publication.</p>
+        <p className="dossier-title">We Burned, Quietly</p>
         <p className="dossier-place">Final cover<br />to be revealed</p>
         <div className="dossier-index" aria-hidden="true"><span>ART</span><span>2026</span><span>VDF</span></div>
         <p className="dossier-note">The cover remains under seal.</p>
@@ -48,6 +68,9 @@ export default function HomePage() {
     <section className="intro-section section-grid" aria-labelledby="novel-intro-title">
       <div className="intro-rail">
         <p className="eyebrow">The novel</p>
+        <div className="intro-score-fragment" aria-hidden="true">
+          <img src={musicScoreArchive} alt="" />
+        </div>
         <figure className="intro-archive-image">
           <img src={valdazanoTower} alt="A weathered tower in northern Italy, seen from below" />
           <figcaption>Exterior study / Ordo Solis</figcaption>
@@ -62,8 +85,8 @@ export default function HomePage() {
         <h2 id="reader-testimonials-title">What early readers are saying</h2>
       </div>
       <div className="testimonial-grid">
-        <figure className="testimonial-card testimonial-card-characters"><blockquote><span>The characters are</span><strong>complex, human,</strong><em>and multi-faceted.</em></blockquote><figcaption>Early reader</figcaption></figure>
-        <figure className="testimonial-card testimonial-card-tension"><blockquote><span>The bones are solid.</span><strong>The voice is distinctive.</strong><em>The tension is real.</em></blockquote><figcaption>Early reader</figcaption></figure>
+        <figure className="testimonial-card testimonial-card-characters"><blockquote>“The characters are complex, human, and multi-faceted.”</blockquote><ReaderAttribution country="uk" /></figure>
+        <figure className="testimonial-card testimonial-card-tension"><blockquote>“The bones are solid. The voice is distinctive. The tension is real.”</blockquote><ReaderAttribution country="us" /></figure>
       </div>
       <Link className="text-link testimonials-link" to="/novel#early-reader-notes">Read all early reader notes <span aria-hidden="true">→</span></Link>
     </section>

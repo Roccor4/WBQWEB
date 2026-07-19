@@ -1,11 +1,12 @@
 import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
+import ReaderAttribution from '../components/ReaderAttribution';
 import { book } from '../site/siteData';
 
 const earlyReaderNotes = [
-  { key: 'characters', lines: ['The characters are', 'complex, human,', 'and multi-faceted.'] },
-  { key: 'luca', lines: ['Luca’s voice feels', 'consistent and lived-in,', 'and his emotional journey carries the weight of the story from beginning to end.'] },
-  { key: 'world', lines: ['It is a world that feels', 'ancient and predatory', 'before anyone even does anything threatening. That’s hard to pull off.'] },
-  { key: 'tension', lines: ['The bones are solid.', 'The voice is distinctive.', 'The tension is real.'] },
+  { key: 'characters', country: 'uk', lines: ['The characters are', 'complex, human,', 'and multi-faceted.'], paper: { issue: 'N. 11', date: '16 marzo 1980', headline: 'La disoccupazione giovanile interpella la Chiesa' } },
+  { key: 'luca', country: 'us', lines: ['Luca’s voice feels', 'consistent and lived-in,', 'and his emotional journey carries the weight of the story from beginning to end.'], paper: { issue: 'N. 34', date: '5 settembre 1982', headline: 'La tromba di Solidarnosc' } },
+  { key: 'world', country: 'de', lines: ['It is a world that feels', 'ancient and predatory', 'before anyone even does anything threatening. That’s hard to pull off.'], paper: { issue: 'N. 25', date: '21 giugno 1981', headline: 'Un coro per la vita' } },
+  { key: 'tension', country: 'us', lines: ['The bones are solid.', 'The voice is distinctive.', 'The tension is real.'], paper: { issue: 'N. 20', date: '17 maggio 1981', headline: 'Attentato a Giovanni Paolo II' } },
 ];
 
 export default function NovelPage() {
@@ -32,11 +33,22 @@ export default function NovelPage() {
 
     <section id="early-reader-notes" className="reader-testimonials reader-testimonials-full" aria-labelledby="early-reader-notes-title">
       <div className="testimonials-intro">
-        <h2 id="early-reader-notes-title">What early readers are saying</h2>
-        <p>First impressions from readers of the manuscript.</p>
+        <div className="testimonials-heading-copy">
+          <h2 id="early-reader-notes-title">What early readers are saying</h2>
+          <p>First impressions from readers of the manuscript.</p>
+        </div>
       </div>
       <div className="testimonial-grid">
-        {earlyReaderNotes.map((note) => <figure className={`testimonial-card testimonial-card-${note.key}`} key={note.key}><blockquote><span>{note.lines[0]}</span><strong>{note.lines[1]}</strong><em>{note.lines[2]}</em></blockquote><figcaption>Early reader</figcaption></figure>)}
+        {earlyReaderNotes.map((note) => <figure className={`testimonial-card testimonial-card-${note.key}`} key={note.key}>
+          <div className="testimonial-newsprint" aria-hidden="true">
+            <span className="newsprint-masthead">vita trentina</span>
+            <span className="newsprint-issue">{note.paper.issue} · Trento, {note.paper.date}</span>
+            <strong>{note.paper.headline}</strong>
+            <span className="newsprint-columns">SETTIMANALE DIOCESANO DI INFORMAZIONE · CRONACA · SOCIETÀ · LAVORO · CULTURA</span>
+          </div>
+          <blockquote>“{note.lines.join(' ')}”</blockquote>
+          <ReaderAttribution country={note.country} />
+        </figure>)}
       </div>
     </section>
 

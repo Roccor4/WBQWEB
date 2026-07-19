@@ -29,7 +29,7 @@ export function SiteHeader() {
       <div className="header-inner">
         <Link className="wordmark" to="/" aria-label="We Burned, Quietly home">
           <span className="wordmark-mark" aria-hidden="true"><img src={orderSunMark} alt="" /></span>
-          <span>{book.title}</span>
+          <span>WBQ</span>
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {navItems.map((item) => <Link key={item.to} to={item.to}>{item.label}</Link>)}

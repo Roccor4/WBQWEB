@@ -47,7 +47,7 @@ export default function NewsletterForm() {
     <div>
       <p className="eyebrow">Newsletter sign-up</p>
       <h2 id="pocket-guide-heading">Sign up to read Chapter One</h2>
-      <p>Before the cover is revealed, receive <em>The Day I Was Renamed</em>: the opening chapter of <em>We Burned, Quietly</em>.</p>
+      <p>Before the cover is revealed, receive <em>The Day I Was Renamed</em>: the opening chapter of <em className="wbq-title-emphasis">We Burned, Quietly</em>.</p>
       <p className="fine-print">You will also receive occasional correspondence and release news from Vladimir Fischer. The chapter is delivered privately; unsubscribe at any time.</p>
     </div>
     <div className={`signup-area ${embedReady ? 'signup-area-ready' : 'signup-area-fallback'}`}>
