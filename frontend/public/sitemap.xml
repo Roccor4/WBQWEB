@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://weburnedquietly.com/</loc></url>
-  <url><loc>https://weburnedquietly.com/novel</loc></url>
-  <url><loc>https://weburnedquietly.com/read/chapter-one</loc></url>
-  <url><loc>https://weburnedquietly.com/archive</loc></url>
-  <url><loc>https://weburnedquietly.com/content-notes</loc></url>
-  <url><loc>https://weburnedquietly.com/press</loc></url>
-  <url><loc>https://weburnedquietly.com/privacy</loc></url>
+  <url><loc>https://weburnedquietly.vercel.app/</loc><lastmod>2026-07-20</lastmod></url>
+  <url><loc>https://weburnedquietly.vercel.app/novel</loc><lastmod>2026-07-20</lastmod></url>
+  <url><loc>https://weburnedquietly.vercel.app/the-order</loc><lastmod>2026-07-20</lastmod></url>
+  <url><loc>https://weburnedquietly.vercel.app/content-notes</loc><lastmod>2026-07-20</lastmod></url>
+  <url><loc>https://weburnedquietly.vercel.app/privacy</loc><lastmod>2026-07-20</lastmod></url>
 </urlset>
