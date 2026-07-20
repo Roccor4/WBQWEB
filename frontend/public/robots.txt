@@ -2,4 +2,4 @@ User-agent: *
 Disallow: /reader-copy/
 Allow: /
 
-Sitemap: https://weburnedquietly.com/sitemap.xml
+Sitemap: https://weburnedquietly.vercel.app/sitemap.xml
