@@ -1,4 +1,4 @@
-export const siteUrl = process.env.REACT_APP_SITE_URL || 'https://weburnedquietly.com';
+export const siteUrl = process.env.REACT_APP_SITE_URL || 'https://weburnedquietly.vercel.app';
 
 export const book = {
   phase: 'teaser',
