@@ -5,8 +5,7 @@ export const book = {
   title: 'We Burned, Quietly',
   author: 'Vladimir Fischer',
   releaseDisplay: 'Coming November 2026',
-  // The final eBook cover is embargoed until 20 October 2026.
-  coverImage: null,
+  coverImage: '/assets/we-burned-quietly-cover.jpg',
   eyebrow: 'A gothic literary novel',
   premise: '1979. Beneath the Dolomites, an elite academy teaches boys that obedience is salvation, tenderness is treason, and love is the easiest thing to weaponise.',
   shortDescription: 'A literary novel of indoctrination, memory, and the dangerous tenderness that survives inside a closed institution.',

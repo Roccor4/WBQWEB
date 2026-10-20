@@ -54,14 +54,8 @@ export default function HomePage() {
         <ReleaseActions />
         <p className="inscription">The Sun burns away the unworthy.</p>
       </div>
-      <div className="hero-dossier" aria-label="Cover reveal information">
-        <div className="dossier-rule" aria-hidden="true" />
-        <p className="dossier-kicker">The official artwork will be revealed before publication.</p>
-        <p className="dossier-title">We Burned, Quietly</p>
-        <p className="dossier-place">Final cover<br />to be revealed</p>
-        <div className="dossier-index" aria-hidden="true"><span>ART</span><span>2026</span><span>VDF</span></div>
-        <p className="dossier-note">The cover remains under seal.</p>
-        <a className="dossier-link" href={chapterSignupUrl} target="_blank" rel="noreferrer">Join the cover reveal list <span aria-hidden="true">→</span></a>
+      <div className="cover-stage">
+        <img src={book.coverImage} alt="Cover of We Burned, Quietly by Vladimir Fischer" />
       </div>
     </section>
 
