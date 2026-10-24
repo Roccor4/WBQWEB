@@ -5,6 +5,7 @@ import NovelPage from "./pages/NovelPage";
 import ContentNotesPage from "./pages/ContentNotesPage";
 import PrivacyPage from "./pages/PrivacyPage";
 import NotFoundPage from "./pages/NotFoundPage";
+import ReviewPage from "./pages/ReviewPage";
 import RankQuizPage from "./pages/RankQuizPage";
 import { SiteFooter, SiteHeader } from "./components/SiteChrome";
 
@@ -20,6 +21,7 @@ function App() {
             <Route path="/the-order" element={<RankQuizPage />} />
             <Route path="/content-notes" element={<ContentNotesPage />} />
             <Route path="/privacy" element={<PrivacyPage />} />
+            <Route path="/review" element={<ReviewPage />} />
             <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>

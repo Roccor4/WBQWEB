@@ -66,7 +66,7 @@ export function SiteFooter() {
       <p>A novel by {book.author}</p>
     </div>
     <div className="footer-links">
-      <Link to="/novel">The Novel</Link><Link to="/the-order">Quiz</Link><Link to="/content-notes">Content notes</Link><Link to="/privacy">Privacy</Link>
+      <Link to="/novel">The Novel</Link><Link to="/the-order">Quiz</Link><Link to="/content-notes">Content notes</Link><Link to="/review">Leave a review</Link><Link to="/privacy">Privacy</Link>
     </div>
     <p className="footer-small">© {new Date().getFullYear()} Vladimir Fischer. All rights reserved.</p>
   </footer>;
