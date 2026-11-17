@@ -1,3 +1,4 @@
+import useRetailLaunch, { amazonBook, goodreadsBook } from '../site/useRetailLaunch';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
@@ -17,6 +18,13 @@ export function usePageMeta(title, description) {
   }, [title, description]);
 }
 
+function PrimaryAction({ className }) {
+  const launched = useRetailLaunch();
+  const action = releaseActions[book.phase].primary;
+  return launched ? <a className={className} href={amazonBook}>Read on Amazon</a>
+    : <Link className={className} to={action.to}>{action.label}</Link>;
+}
+
 export function SiteHeader() {
   const [open, setOpen] = useState(false);
   const location = useLocation();
@@ -33,7 +41,7 @@ export function SiteHeader() {
         </Link>
         <nav className="desktop-nav" aria-label="Primary navigation">
           {navItems.map((item) => <Link key={item.to} to={item.to}>{item.label}</Link>)}
-          <Link className="nav-cta" to={releaseActions[book.phase].primary.to}>{releaseActions[book.phase].primary.label}</Link>
+          <PrimaryAction className="nav-cta" />
         </nav>
         <button className="menu-toggle" type="button" aria-expanded={open} aria-controls="mobile-navigation" onClick={() => setOpen(!open)}>
           {open ? <X aria-hidden="true" /> : <Menu aria-hidden="true" />}
@@ -43,7 +51,7 @@ export function SiteHeader() {
       {open && (
         <nav id="mobile-navigation" className="mobile-nav" aria-label="Mobile navigation">
           {navItems.map((item) => <Link key={item.to} to={item.to}>{item.label}</Link>)}
-          <Link className="button button-primary" to={releaseActions[book.phase].primary.to}>{releaseActions[book.phase].primary.label}</Link>
+          <PrimaryAction className="button button-primary" />
         </nav>
       )}
     </header>
@@ -51,14 +59,16 @@ export function SiteHeader() {
 }
 
 export function ReleaseActions({ className = '' }) {
+  const launched = useRetailLaunch();
   const actions = releaseActions[book.phase];
   return <div className={`release-actions ${className}`}>
-    <Link className="button button-primary" to={actions.primary.to}>{actions.primary.label}</Link>
-    <Link className="button button-secondary" to={actions.secondary.to}>{actions.secondary.label}</Link>
+    <PrimaryAction className="button button-primary" />
+    <Link className="button button-secondary" to={launched ? actions.primary.to : actions.secondary.to}>{launched ? actions.primary.label : actions.secondary.label}</Link>
   </div>;
 }
 
 export function SiteFooter() {
+  const launched = useRetailLaunch();
   return <footer className="site-footer">
     <div className="footer-lockup">
       <img className="footer-mark" src={orderSunMark} alt="" aria-hidden="true" />
@@ -66,6 +76,8 @@ export function SiteFooter() {
       <p>A novel by {book.author}</p>
     </div>
     <div className="footer-links">
+      {launched && <a href={amazonBook}>Find the book on Amazon</a>}
+      <a href={goodreadsBook}>Goodreads</a>
       <Link to="/novel">The Novel</Link><Link to="/the-order">Quiz</Link><Link to="/content-notes">Content notes</Link><Link to="/review">Leave a review</Link><Link to="/privacy">Privacy</Link>
     </div>
     <p className="footer-small">© {new Date().getFullYear()} Vladimir Fischer. All rights reserved.</p>

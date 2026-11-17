@@ -1,3 +1,4 @@
+import useRetailLaunch, { amazonBook, goodreadsBook } from '../site/useRetailLaunch';
 import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
 import ReaderAttribution from '../components/ReaderAttribution';
 import { book } from '../site/siteData';
@@ -10,6 +11,7 @@ const earlyReaderNotes = [
 ];
 
 export default function NovelPage() {
+  const launched = useRetailLaunch();
   usePageMeta('The Novel | We Burned, Quietly', 'Discover We Burned, Quietly, a gothic literary novel by Vladimir Fischer.');
 
   return <article className="page-shell novel-page">
@@ -17,7 +19,7 @@ export default function NovelPage() {
       <p className="eyebrow">The novel</p>
       <h1>{book.title}</h1>
       <p className="byline">A debut novel by {book.author}</p>
-      <p className="release-line">{book.releaseDisplay}</p>
+      <p className="release-line">{launched ? '20 November 2026' : book.releaseDisplay}</p>
     </div>
 
     <div className="novel-layout">
@@ -26,7 +28,7 @@ export default function NovelPage() {
         <h2>In the shadow of the Dolomites</h2>
         <p>{book.premise}</p>
         <p>Luca Altomare is sent to the Ordo Solis, a mountain academy that promises protection and excellence at the cost of the self. There, hierarchy becomes theology, surveillance becomes care, and the smallest private act can be made into a confession.</p>
-        <p>This is a spoiler-safe introduction. Format, ISBN, and retailer information will appear here only when verified.</p>
+        {!launched && <p>This is a spoiler-safe introduction. Format, ISBN, and retailer information will appear here only when verified.</p>}
         <ReleaseActions />
       </div>
     </div>
@@ -54,8 +56,10 @@ export default function NovelPage() {
 
     <section id="editions" className="quiet-panel">
       <p className="eyebrow">Publication</p>
-      <h2>Edition details will be announced here.</h2>
-      <p>There are no retailer links or format claims on this page until they are confirmed.</p>
+      {launched ? <><h2>Read <em>We Burned, Quietly</em></h2>
+        <div className="release-actions"><a className="button button-primary" href={amazonBook}>Get the book on Amazon</a>
+          <a className="button button-secondary" href={goodreadsBook}>Save on Goodreads</a></div></> : <><h2>Edition details will be announced here.</h2>
+      <p>There are no retailer links or format claims on this page until they are confirmed.</p></>}
     </section>
   </article>;
 }

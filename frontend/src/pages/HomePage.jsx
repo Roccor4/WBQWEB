@@ -1,9 +1,10 @@
+import useRetailLaunch, { amazonBook } from '../site/useRetailLaunch';
 import { useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import NewsletterForm from '../components/NewsletterForm';
 import ReaderAttribution from '../components/ReaderAttribution';
 import { ReleaseActions, usePageMeta } from '../components/SiteChrome';
-import { book, readerTestimonials } from '../site/siteData';
+import { book } from '../site/siteData';
 import orderSunMark from '../assets/ordo-solis-sun-seal.webp';
 import heroPoster from '../assets/val-di-non-clouds-poster.jpg';
 import valdazanoTower from '../assets/valdazano-tower-archive.jpg';
@@ -12,10 +13,12 @@ import musicScoreArchive from '../assets/music-score-archive.jpg';
 const chapterSignupUrl = 'https://preview.mailerlite.io/forms/1707528/161992586618209765/share';
 
 export default function HomePage() {
+  const launched = useRetailLaunch();
   const location = useLocation();
   usePageMeta('We Burned, Quietly | A Gothic Literary Novel by Vladimir Fischer', 'We Burned, Quietly is a gothic literary novel set beneath the Dolomites in 1979, where an elite academy turns obedience into faith and tenderness into evidence.');
   useEffect(() => { if (location.hash) document.querySelector(location.hash)?.scrollIntoView(); }, [location.hash]);
 
+  const cover = <img src={book.coverImage} alt="Cover of We Burned, Quietly by Vladimir Fischer" />;
   return <>
     <section className="hero" aria-labelledby="hero-title">
       <img className="hero-video" src={heroPoster} alt="" aria-hidden="true" />
@@ -50,12 +53,15 @@ export default function HomePage() {
         </h1>
         <p className="byline">A debut novel by {book.author}</p>
         <p className="hero-premise">{book.premise}</p>
-        <p className="release-line">{book.releaseDisplay}</p>
+        <p className="release-line">{launched ? '20 November 2026' : book.releaseDisplay}</p>
         <ReleaseActions />
         <p className="inscription">The Sun burns away the unworthy.</p>
       </div>
       <div className="cover-stage">
-        <img src={book.coverImage} alt="Cover of We Burned, Quietly by Vladimir Fischer" />
+        {launched ? <a className="cover-retail-link" href={amazonBook}>
+          {cover}
+          <span className="cover-caption"><svg aria-hidden="true" width="39" height="23" viewBox="0 0 39 23" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M37 20C20 22 8 18 5 4m-3 7 3-8 8 4" /></svg>Find the book on Amazon</span>
+        </a> : cover}
       </div>
     </section>
 
